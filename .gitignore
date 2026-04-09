@@ -1,0 +1,39 @@
+# macOS
+.DS_Store
+._*
+
+# Python / R
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+venv/
+.venv/
+
+# 大型資料 / PDF 全文（不進 Git，請放雲端）
+*.pdf
+*.xlsx
+*.xls
+*.zip
+*.tar.gz
+data/raw/
+data/pdfs/
+pdfs/
+fulltext/
+full_text/
+
+# Rayyan 匯出
+rayyan_export_*.csv
+rayyan_export_*.ris
+*.ris
+
+# 含 PHI 的檔案 ⚠️
+*_PHI.*
+*_identifiable.*
+patient_data/
+
+# Claude Code / IDE
+.claude/cache/
+.vscode/
+.idea/
