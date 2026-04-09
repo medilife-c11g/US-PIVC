@@ -1,0 +1,44 @@
+
+=== EMBASE (OVID) SEARCH STRATEGY ===
+Database: Embase via Ovid
+URL: Access via your hospital library (e.g., 秀傳圖書館 or 國家衛生研究院)
+Date limit: 2000-2026
+
+INSTRUCTIONS:
+1. Log in to Ovid Embase via institutional access
+2. Select "Advanced Search"
+3. Enter each line, run search
+4. Combine sets with AND
+5. Apply date limit: 2000 to 2026
+6. Remove animal-only studies
+7. Export as RIS → save to data/embase_results.ris
+
+--- SEARCH LINES ---
+
+1   exp echography/ OR ultrasound.tw. OR ultrasonograph*.tw.
+    OR sonograph*.tw. OR POCUS.tw. OR "point-of-care ultrasound".tw.
+    OR "US-guided".tw. OR USG.tw. OR "ultrasound-guided".tw.
+
+2   exp peripheral catheterization/ OR "peripheral intravenous".tw.
+    OR "peripheral venous catheter*".tw. OR PIVC.tw. OR PIV.tw.
+    OR "peripheral vascular access".tw. OR "peripheral venous access".tw.
+    OR "peripheral cannulat*".tw. OR "intravenous cannulat*".tw.
+    OR venipuncture.tw. OR venepuncture.tw.
+    OR "short peripheral catheter".tw.
+    OR USGIV.tw. OR USGPIV.tw.
+
+3   exp device failure/ OR exp phlebitis/ OR exp catheter infection/
+    OR "dwell time".tw. OR "catheter survival".tw.
+    OR "catheter failure".tw. OR "catheter complication*".tw.
+    OR phlebitis.tw. OR infiltration.tw. OR extravasation.tw.
+    OR occlusion.tw. OR dislodg*.tw. OR "catheter patency".tw.
+    OR thrombophlebitis.tw.
+    OR (premature adj2 removal).tw.
+    OR (unplanned adj2 removal).tw.
+    OR "device failure".tw. OR "catheter malfunction".tw.
+
+4   1 AND 2 AND 3
+
+5   limit 4 to yr="2000-2026"
+
+6   5 NOT (exp animal/ NOT exp human/)

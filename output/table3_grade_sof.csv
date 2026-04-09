@@ -1,0 +1,6 @@
+Outcome,Studies,Participants,Effect,Certainty,Downgrade
+Catheter failure,"4 (2 RCTs, 2 cohorts)",3404,RR 1.23 (1.00-1.51),Low,Risk of bias; imprecision
+Dwell time,2 (2 RCTs),386,MD -0.2h (-7.7 to 7.3),Low,Imprecision; indirectness
+Infiltration,"2 (1 RCT, 1 cohort)",2778,RR 0.68 (0.12-3.83),Very low,Risk of bias; inconsistency; imprecision
+Extravasation,"2 (1 RCT, 1 cohort)",29612,Not pooled (I2=96.7%),Very low,Inconsistency; indirectness; risk of bias
+HR-based failure,2 (2 cohorts),43800,HR 1.02 (0.75-1.38),Very low,Risk of bias; inconsistency; imprecision

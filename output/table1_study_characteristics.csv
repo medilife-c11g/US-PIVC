@@ -1,0 +1,15 @@
+Study,Year,Country,Design,Setting,Population,N_USG,N_LM,DIVA,Cath_Confounded,Follow_up,Key_Finding
+Kleidon TM,2025,Australia,RCT,Children's hospital,Paediatric 0-18y,84,80,No,No,Until removal,Failure 23.8% vs 25.0% (NS); Dwell 47.1 vs 47.7h (NS)
+Bridey C,2018,France,RCT,Tertiary ICU,Adult ICU (DIVA),57,57,Yes,No,Max 3 days,Lifespan 3 vs 3 days (NS); Extravasation 34% vs 18% (p=0.094)
+Feinsmith SE,2021,USA,Retro cohort,Academic centre,Adult (DIVA),7972,35498,Yes,No,30 days,Adjusted HR 0.91 (0.87-0.95) favoring USG
+Dachepally R,2023,USA,Retro cohort,Paediatric ICU,Paediatric ICU (DIVA),99,88,Yes,Yes*,Until removal,Median dwell 219 vs 108h; HR 2.20 (1.45-3.34)
+Shokoohi H,2019,USA,Prosp cohort,Tertiary ED,Adult ED (all),182,148,No,No,72 hours,"Premature removal 27% vs 21% (RR 1.26, NS)"
+Favot M,2019,USA,Retro cohort,Tertiary ED,Adult ED (CT contrast),291,29217,No,No,33 months,Contrast extrav 4.1% vs 0.21% (RR 19.4)
+Varghese S,2025,India,RCT,Paediatric ED,Paediatric 1mo-17y,45,45,Mixed,No,2 hours,2hr patency 97.78% vs 84.44% (p=0.03)
+Leroux S,2023,USA,RCT,Tertiary ED,Adult ED,106,116,No,No,48-96h,Failure 11.3% vs 9.5% (NS); Utility 23.5 vs 24.7h (NS)
+Paladini A,2018,Italy,Prosp cohort,Paediatric ED,Paediatric ED (DIVA) >10y,20,20,Yes,Yes*,Until removal,Dwell 9.2+/-6.0 vs 3.2+/-2.1 days (p<0.0001)
+Saltarelli NA,2015,USA,Retro cohort,Tertiary ED,Adult ED (DIVA),885,1803,Yes,No,Hospital stay,"Infiltration 7.6% vs 5.9% (OR 1.31, NS)"
+Cottrell JT,2021,USA,Retro cohort,Children's hospital,Paediatric (mixed),256,287,Mixed,No,Until removal,Dwell 96 vs 59h (p<0.001); USG +36.7h longer
+Refosco M,2024,Brazil,Prosp cohort,Paediatric ED,Paediatric ED (mixed),135,135,Mixed,Yes*,Until removal,Dwell 127 vs 60h; USG used 64mm vs blind 19-32mm
+Nishizawa T,2020,Japan,RCT,Mixed ICU,Adult ICU (DIVA),30,30,Yes,No,Up to 1 week,1st-attempt success 70% vs 40% (p<0.05); Extravasation 13.6% vs 28.5% (NS)
+Desai K,2018,USA,Retro cohort,Paediatric ED,Paediatric ED (mixed),160,363,Mixed,Yes*,Until removal,K-M dwell 143 vs 89h (p<0.001); Failure 34% vs 32% (NS)

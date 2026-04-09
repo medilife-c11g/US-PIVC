@@ -1,0 +1,45 @@
+
+=== COCHRANE CENTRAL SEARCH STRATEGY ===
+Database: Cochrane Central Register of Controlled Trials (CENTRAL)
+URL: https://www.cochranelibrary.com/advanced-search
+Date: 2000-01 to 2026-03
+
+INSTRUCTIONS:
+1. Go to https://www.cochranelibrary.com/advanced-search
+2. Select "Trials" tab
+3. Enter each search line in "Search Manager"
+4. Combine with AND
+5. Limit publication date: Jan 2000 to Mar 2026
+6. Export results as RIS → save to data/cochrane_results.ris
+
+--- SEARCH LINES ---
+
+#1 MeSH descriptor: [Ultrasonography] explode all trees
+    OR (ultrasound OR ultrasonograph* OR sonograph* OR POCUS
+    OR "point-of-care ultrasound" OR "US-guided" OR "USG"
+    OR "ultrasound-guided"):ti,ab,kw
+
+#2 MeSH descriptor: [Catheterization, Peripheral] explode all trees
+    OR ("peripheral intravenous" OR "peripheral venous catheter*"
+    OR "peripheral IV" OR PIVC OR PIV
+    OR "peripheral vascular access" OR "peripheral venous access"
+    OR "peripheral cannulat*" OR "intravenous cannulat*"
+    OR venipuncture OR venepuncture
+    OR "short peripheral catheter"
+    OR USGIV OR USGPIV):ti,ab,kw
+
+#3 MeSH descriptor: [Equipment Failure] explode all trees
+    OR MeSH descriptor: [Phlebitis] explode all trees
+    OR MeSH descriptor: [Catheter-Related Infections] explode all trees
+    OR ("dwell time" OR "catheter survival" OR "catheter failure"
+    OR "catheter longevity" OR "catheter durability"
+    OR "catheter complication*" OR "post-insertion"
+    OR phlebitis OR infiltration OR extravasation
+    OR occlusion OR dislodgement OR dislodgment
+    OR "catheter patency" OR thrombophlebitis
+    OR "premature removal" OR "unplanned removal"
+    OR "device failure" OR "catheter malfunction"):ti,ab,kw
+
+#4 #1 AND #2 AND #3
+
+#5 #4 with Publication Year from 2000 to 2026

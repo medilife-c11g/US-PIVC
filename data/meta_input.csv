@@ -1,0 +1,15 @@
+study_id,first_author,year,design,population,age_group,diva_only,catheter_confounded,n_usg,n_lm,failure_usg,failure_lm,dwell_mean_usg,dwell_sd_usg,dwell_mean_lm,dwell_sd_lm,dwell_median_usg,dwell_q1_usg,dwell_q3_usg,dwell_median_lm,dwell_q1_lm,dwell_q3_lm,infiltration_usg,infiltration_lm,extravasation_usg,extravasation_lm,n_extravasation_usg,n_extravasation_lm,patency_2hr_usg,patency_2hr_lm,rob_overall,notes
+1,Kleidon,2025,RCT,Paediatric,Paediatric,No,FALSE,84,80,20,20,NA,NA,NA,NA,47.1,24.2,77,47.7,22.3,74.1,NA,NA,NA,NA,NA,NA,NA,NA,Some concerns,EPIC trial
+2,Bridey,2018,RCT,Adult ICU,Adult,Yes,FALSE,57,57,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,18,9,53,51,NA,NA,Some concerns,Extravasation as catheter removal reason
+3,Feinsmith,2021,Cohort,Adult,Adult,Yes,FALSE,7972,35498,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6/9 NOS,HR 0.91 adjusted
+4,Dachepally,2023,Cohort,Paediatric ICU,Paediatric,Yes,TRUE,99,88,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6/9 NOS,USG=long catheter CONFOUNDED
+5,Shokoohi,2019,Cohort,Adult ED,Adult,No,FALSE,182,148,50,31,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,9/9 NOS,Premature removal 72hr
+6,Favot,2019,Cohort,Adult ED,Adult,No,FALSE,291,29217,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,12,62,291,29217,NA,NA,5/9 NOS,Only contrast extravasation
+7,Varghese,2025,RCT,Paediatric ED,Paediatric,Mixed,FALSE,45,45,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,1,5,NA,NA,NA,NA,44,38,Some concerns,Only 2-hr follow-up
+8,Leroux,2023,RCT,Adult ED,Adult,No,FALSE,106,116,12,11,23.5,33.8,24.7,38.8,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,High risk,Underpowered
+9,Paladini,2018,Cohort,Paediatric ED,Paediatric,Yes,TRUE,20,20,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6/9 NOS,USG=long LC CONFOUNDED
+10,Saltarelli,2015,Cohort,Adult ED,Adult,Yes,FALSE,885,1803,67,107,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,67,107,NA,NA,NA,NA,NA,NA,5/9 NOS,Abstract only infiltration
+11,Cottrell,2021,Cohort,Paediatric,Paediatric,Mixed,FALSE,256,287,NA,NA,96.06,91.55,59.39,47.69,118,NA,NA,71,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6/9 NOS,Same catheter type; USG more difficult cases
+12,Refosco,2024,Cohort,Paediatric ED,Paediatric,Mixed,TRUE,135,135,NA,NA,127.2,96,60,43.2,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,6/9 NOS,USG=long 64mm vs Blind=short 19-32mm CONFOUNDED
+13,Nishizawa,2020,RCT,Adult ICU,Adult,Yes,FALSE,30,30,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,3,4,22,14,NA,NA,Some concerns,DIVA ICU; nurse-performed; sparse outcomes
+14,Desai,2018,Cohort,Paediatric ED,Paediatric,Mixed,TRUE,160,363,54,115,73,68,38,29.4,143,68,246,89,65,106,13,18,NA,NA,NA,NA,NA,NA,5/9 NOS,USG group 55% DIVA hx vs TPIV 7.2%; longer catheters CONFOUNDED

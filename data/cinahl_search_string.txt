@@ -1,0 +1,39 @@
+
+=== CINAHL (EBSCOhost) SEARCH STRATEGY ===
+Database: CINAHL Complete via EBSCOhost
+URL: Access via hospital library
+Date limit: 2000-2026
+Note: CINAHL is particularly important for nursing-focused studies.
+
+INSTRUCTIONS:
+1. Log in to EBSCOhost CINAHL
+2. Select "Advanced Search"
+3. Enter each search block
+4. Combine with AND
+5. Apply limiters: Publication Date 2000-2026; English or Chinese
+6. Export as RIS → save to data/cinahl_results.ris
+
+--- SEARCH LINES ---
+
+S1  (MH "Ultrasonography+") OR TI ultrasound OR AB ultrasound
+    OR TI ultrasonograph* OR AB POCUS
+    OR TI "point-of-care ultrasound" OR TI "ultrasound-guided"
+    OR AB "US-guided"
+
+S2  (MH "Catheter Insertion, Peripheral") OR (MH "Peripheral Vascular Devices")
+    OR TI "peripheral intravenous" OR AB "peripheral venous catheter*"
+    OR TI PIVC OR AB "peripheral cannulat*"
+    OR TI "intravenous cannulat*" OR AB venipuncture
+
+S3  (MH "Phlebitis") OR (MH "Equipment Failure")
+    OR (MH "Catheter-Related Infections")
+    OR TI "dwell time" OR AB "catheter failure"
+    OR TI phlebitis OR AB infiltration
+    OR TI extravasation OR AB occlusion
+    OR TI dislodg* OR AB "catheter complication*"
+    OR TI "catheter survival" OR AB "premature removal"
+    OR TI "unplanned removal" OR AB thrombophlebitis
+
+S4  S1 AND S2 AND S3
+
+S5  S4 (Limiters: Published Date 2000-2026)
