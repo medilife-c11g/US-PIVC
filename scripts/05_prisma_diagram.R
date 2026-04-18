@@ -70,7 +70,7 @@ draw_box(40, 48, 32, 7,
 draw_arrow(56, 48, 66, 48)
 
 draw_box(80, 48, 26, 14,
-         "Reports excluded (n = 5)\n\nSingle-arm, no comparator:\n  1 (Malik)\nPortuguese language:\n  1 (Avelar)\nNot published:\n  2 (oncology nurses,\n     ICU nurses DIVA)\nProtocol only, same trial:\n  1 (Kleidon BJN)\n\nDuplicate report noted:\n  1 (Kleidon JVA)",
+         "Reports excluded (n = 6)\n\nSingle-arm, no comparator:\n  1 (Malik)\nPortuguese language:\n  1 (Avelar)\nNot published:\n  2 (oncology nurses,\n     ICU nurses DIVA)\nProtocol only, same trial:\n  1 (Kleidon BJN 2023)\nDuplicate report:\n  1 (Kleidon JVA 2022)",
          fill = "#FDE8E8", border = "#CB181D", cex = 0.52)
 
 # ===== INCLUDED =====
@@ -79,7 +79,7 @@ draw_arrow(40, 44.5, 40, 38)
 text(5, 39, "INCLUDED", adj = 0, font = 2, cex = 0.9, col = "#555555")
 
 draw_box(40, 34, 35, 7,
-         "Studies included in\nqualitative synthesis\n(n = 14)\n5 RCTs, 9 cohort studies\n(78,329 participants)",
+         "Studies included in\nqualitative synthesis\n(n = 14)\n5 RCTs, 9 cohort studies\n(78,209 participants)",
          fill = "#C7E9C0", border = "#238B45", cex = 0.65)
 
 draw_arrow(40, 30.5, 40, 26)

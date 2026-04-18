@@ -1,6 +1,6 @@
 # Cover Letter
 
-Date: April 3, 2026
+Date: April 18, 2026
 
 Editor-in-Chief
 The Ultrasound Journal
@@ -14,7 +14,7 @@ We are pleased to submit our manuscript entitled **"Post-insertion outcomes of u
 
 Ultrasound-guided peripheral intravenous catheter (USG-PIVC) insertion has been widely adopted to improve cannulation success, particularly in patients with difficult intravenous access. Multiple systematic reviews have established its insertion benefits. However, no prior systematic review has specifically evaluated whether USG confers any advantage in **post-insertion** outcomes -- including catheter failure, dwell time, and complications such as infiltration and extravasation.
 
-Our systematic review and meta-analysis of 12 studies (4 RCTs, 8 cohort studies; 77,646 participants) across four databases reveals three key findings of direct relevance to the ultrasound community:
+Our systematic review and meta-analysis of 14 studies (5 RCTs, 9 cohort studies; 78,209 participants) across four databases reveals three key findings of direct relevance to the ultrasound community:
 
 1. **USG does not improve post-insertion catheter outcomes** compared with landmark placement (catheter failure RR 1.23, 95% CI 1.00--1.51; dwell time results heterogeneous and unpoolable, I²=91.9%).
 

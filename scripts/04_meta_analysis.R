@@ -97,6 +97,25 @@ if (sum(fail_idx) >= 2) {
     loo <- metainf(m_fail, pooled = "random")
     print(loo)
   }
+
+  # Sensitivity: REML estimator + Hartung-Knapp-Sidik-Jonkman (HKSJ) CI adjustment
+  cat("\n--- Sensitivity: REML + HKSJ adjustment ---\n")
+  m_fail_reml <- metabin(
+    event.e = df$failure_usg[fail_idx],
+    n.e     = df$n_usg[fail_idx],
+    event.c = df$failure_lm[fail_idx],
+    n.c     = df$n_lm[fail_idx],
+    studlab = labels[fail_idx],
+    sm = "RR", method = "MH",
+    method.tau = "REML",
+    hakn = TRUE,        # Hartung-Knapp adjustment
+    random = TRUE, fixed = FALSE,
+    title = "Catheter Failure — REML+HKSJ sensitivity"
+  )
+  cat("REML+HKSJ: RR =", round(exp(m_fail_reml$TE.random), 3),
+      "(95% CI", round(exp(m_fail_reml$lower.random), 3), "to",
+      round(exp(m_fail_reml$upper.random), 3), "), p =",
+      round(m_fail_reml$pval.random, 4), "\n")
 } else {
   cat("Fewer than 2 studies — skipping pooled analysis.\n")
   m_fail <- NULL

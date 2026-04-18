@@ -18,9 +18,9 @@
 | 1 | Refosco M et al. (2024) — USG deep veins vs blind superficial veins in children 0-18y | 486160202 | Retrieved and included (confounded by catheter type) |
 | 2 | Cottrell JT et al. (2021) — USG increases catheter dwell time in children | 486160348 | Retrieved and included |
 
-## Full-text articles not retrieved (n = 2)
+## Full-text articles retrieved after initial search (subsequently included)
 
-| # | Study | Rayyan ID | Reason |
+| # | Study | Rayyan ID | Status |
 |---|-------|-----------|--------|
-| 1 | Desai K et al. — Longevity and complications USG vs traditional paediatric ED | 486161209 | Full text unavailable through institutional access |
-| 2 | Nishizawa T et al. — Nurse-performed USG RCT in critically ill | 486161498 | Full text unavailable through institutional access |
+| 1 | Desai K et al. (2018) — Longevity and Complication Rates of Ultrasound Guided vs Traditional PIVC in a Paediatric ED. *JAVA* 23(3):149-154. | 486161209 | Retrieved April 2026 via interlibrary loan; included (classified as catheter-length confounded; excluded from primary pooling, retained in narrative synthesis) |
+| 2 | Nishizawa T et al. (2020) — Nurse-Performed Ultrasound-Guided Technique for Difficult Peripheral IV Access in Critically Ill Patients. *JAVA* 25(2):34-39. | 486161498 | Retrieved April 2026 via interlibrary loan; included (5th RCT; extravasation data contributed to narrative synthesis) |

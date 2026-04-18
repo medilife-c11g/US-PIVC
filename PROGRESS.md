@@ -21,16 +21,18 @@
 | 04 | Title/Abstract screening (Rayyan) | ✅ Done | 2026-04-03 | Rayyan #1961147; Consensus: 17 Include, 0 Maybe, 1,342 Exclude |
 | 04a | AI co-reviewer screening + kappa | ✅ Done | 2026-04-03 | Kappa=0.216, 97.1% agreement; 40 disagreements resolved by consensus |
 | 04b | Post-consensus removals | ✅ Done | 2026-04-03 | Removed: Avelar (Portuguese), oncology nurses (unpublished), ICU nurses DIVA (unpublished) |
-| 05 | Full-text retrieval | 🔄 Partial | 2026-04-04 | 15/17 PDFs downloaded; 2 unavailable (Desai, Nishizawa). Cottrell & Refosco retrieved 2026-04-04. |
-| 05a | Full-text screening | ✅ Done | 2026-04-04 | Malik excluded (single-arm). 12 studies confirmed eligible. Dachepally, Paladini & Refosco flagged for catheter confounding. |
-| 06 | Data extraction | ✅ Done | 2026-04-04 | 12 studies in `data/meta_input.csv` |
-| 07 | Risk of bias assessment | ✅ Done | 2026-04-03 | RoB 2: 3 Some concerns, 1 High risk; NOS: range 5-9/9. See `output/risk_of_bias.md` |
-| 08 | Meta-analysis (R) | ✅ Done | 2026-04-03 | `04_meta_analysis.R` completed. Forest plots in `output/`. See results below. |
-| 09 | Manuscript drafting | ✅ Done | 2026-04-03 | `output/manuscript_draft.md` — revised per Gemini critique; GRADE added |
-| 09a | Tables & Figures PDF | ✅ Done | 2026-04-03 | Table 1-3 PDF + CSV; PRISMA PDF; 6 forest plot PDFs |
-| 09b | Supplementary materials | ✅ Done | 2026-04-03 | S1 search strategy, S2 excluded studies, S3 PRISMA checklist |
-| 09c | Cover letter + Title page | ✅ Done | 2026-04-03 | Target: The Ultrasound Journal (BMC) |
-| 09d | Cottrell + Refosco update | ✅ Done | 2026-04-04 | 12 studies; dwell time I²=91.9% unpoolable; all outputs regenerated |
+| 05 | Full-text retrieval | ✅ Done | 2026-04-09 | All 14 full texts obtained. Desai 2018 (JAVA 23:3) + Nishizawa 2020 (JAVA 25:2) retrieved 2026-04-09. |
+| 05a | Full-text screening | ✅ Done | 2026-04-09 | Malik excluded (single-arm). 14 studies confirmed eligible. Dachepally, Paladini, Refosco & Desai flagged for catheter confounding. |
+| 06 | Data extraction | ✅ Done | 2026-04-09 | 14 studies in `data/meta_input.csv`; Desai & Nishizawa fully extracted and added |
+| 07 | Risk of bias assessment | ✅ Done | 2026-04-09 | RoB 2: 4 Some concerns (incl. Nishizawa), 1 High risk (Leroux); NOS: Desai 5/9. See `output/risk_of_bias.md` |
+| 08 | Meta-analysis (R) | ✅ Done | 2026-04-09 | `04_meta_analysis.R` re-run with 14 studies. Extravasation now k=3 (Bridey/Favot/Nishizawa). Forest plots regenerated. |
+| 09 | Manuscript drafting | ✅ Done | 2026-04-09 | `output/manuscript_draft.md` — updated with all 14 studies; Desai & Nishizawa incorporated throughout |
+| 09a | Tables & Figures PDF | ✅ Done | 2026-04-09 | Table 1 now 14 studies; Table 2A includes Nishizawa (RoB 2); Table 2B includes Desai (NOS); forest plots updated |
+| 09b | Supplementary materials | ✅ Done | 2026-04-18 | S1 search strategy; S2 updated (Desai/Nishizawa moved from "unavailable" → "retrieved & included"); S3 PRISMA checklist |
+| 09c | Cover letter + Title page | ✅ Done | 2026-04-18 | Updated: 14 studies / 5 RCTs / 9 cohorts / 78,209 participants; date April 18 |
+| 09d | Manuscript peer-review revision (3 rounds) | ✅ Done | 2026-04-18 | See revision log below |
+| 09e | REML+HKSJ sensitivity analysis | ✅ Done | 2026-04-18 | Added to `04_meta_analysis.R`; RR 1.225 (1.005–1.493) p=0.047 — consistent with DL |
+| 09f | PRISMA PDF regenerated | ✅ Done | 2026-04-18 | n=6 excluded (was n=5); 78,209 participants; Kleidon JVA/BJN both listed |
 | 10 | PROSPERO registration | ✅ Done | 2026-03-29 | CRD420261354170 |
 
 ---
@@ -86,14 +88,15 @@
 - ICU nurses DIVA [486160677] — Not published
 - Kleidon protocol (BJN) — Protocol only, same trial as #1
 
-### Full-text retrieval: 11/17 downloaded, 4 unavailable
-- ❌ Refosco M, Cottrell JT, Desai K, Nishizawa T
+### Full-text retrieval: ALL 14 INCLUDED STUDIES RETRIEVED ✅
+- Desai K 2018 (JAVA 23:3) — retrieved via interlibrary loan 2026-04-09
+- Nishizawa T 2020 (JAVA 25:2) — retrieved via interlibrary loan 2026-04-09
 
 ### Full-text screening: Malik A excluded (single-arm, no comparator)
-- 10 studies confirmed eligible for data extraction
-- Dachepally & Paladini flagged: catheter length/type confounding
+- **14 studies confirmed eligible** (updated 2026-04-09)
+- Confounded (excluded from primary pooling): Dachepally, Paladini, Refosco, Desai
 
-### Meta-Analysis Results (2026-04-03)
+### Meta-Analysis Results (updated 2026-04-18)
 
 **Primary: Catheter Failure (k=4, I²=0%)**
 - RR = 1.23 (95% CI 1.00–1.51), p = 0.056 — NOT significant
@@ -108,9 +111,11 @@
 - Pooled HR = 1.02 (0.75–1.38), p = 0.91 — conflicting directions (Feinsmith favors USG, Shokoohi null)
 
 **Narrative synthesis (insufficient studies to pool):**
-- Extravasation: Favot RR 19.4 unfavorable to USG; Bridey 34% vs 18% trending
+- Extravasation (k=3, I²=95.7%): Favot RR 19.4 unfavorable to USG; Bridey 34% vs 18% trending unfavorable; **Nishizawa 13.6% vs 28.5% (NS, opposite direction, small n)**
 - Infiltration: Saltarelli OR 1.31 null; Varghese 2.2% vs 11.1% favoring USG
-- Confounded studies (Dachepally, Paladini, Refosco): strongly favor USG but catheter length confounds results
+- Confounded studies (Dachepally, Paladini, Refosco, **Desai**): strongly favor USG but catheter length confounds results
+  - **Desai 2018**: KM 143 vs 89h (p<0.001); complications 34% vs 32% (NS); CONFOUNDED — 55% DIVA hx in USG vs 7.2% TPIV; longer catheters used
+  - **Nishizawa 2020**: 5th RCT (nurse-performed ICU, DIVA); primary = first-attempt success (70% vs 40%, p<0.05); extravasation secondary NS
 
 **Outputs:**
 - `output/forest_catheter_failure.pdf`
@@ -122,11 +127,24 @@
 - `data/extracted_data.csv`
 - `data/meta_input.csv`
 
-### Next Actions
-1. Retrieve 4 unavailable full-texts (if possible) and re-run analysis
-2. Co-author review (Lee)
-3. Convert forest plots to journal-required format (TIFF 300 dpi)
-4. Cover letter for target journal
+### Manuscript Revision Log (2026-04-18)
+
+Three rounds of AI-assisted peer review (via ChatGPT simulation) completed. Status: **Minor Revision → submission-ready**.
+
+| Round | Key Change | Status |
+|-------|-----------|--------|
+| R1 | Cover letter updated (14/5/9/78,209); PRISMA n=5→n=6; AI reviewer reframed; S2 Desai/Nishizawa status corrected; REML+HKSJ added; language softened (adult subgroup, extravasation) | ✅ |
+| R2 | Study characteristics counts fixed (7 adult/7 paed; ED=8/ICU=3); extravasation Table 3 RR removed → "not pooled"; HKSJ borderline statement added; PRISMA flow cleaned | ✅ |
+| R3 | AI screening paragraph further tightened (human decision emphasis); Results compressed (individual studies → 3 paragraphs); PRISMA ambiguous bracket removed; Table 3 extravasation finalised | ✅ |
+
+### Next Actions (Updated 2026-04-18)
+1. ~~Retrieve unavailable full-texts~~ — DONE
+2. ~~Unify participant totals~~ — DONE (78,209 throughout)
+3. ~~REML+HKSJ sensitivity analysis~~ — DONE
+4. **PENDING**: Confirm with Dr. Lee whether independent data extraction was performed (affects "independently by two reviewers" sentence in Methods)
+5. **PENDING**: Dr. Lee to complete manuscript review / co-author sign-off before submission
+6. Convert forest plots to TIFF 300 dpi (journal requirement)
+7. Submit to The Ultrasound Journal (BMC)
 
 ### Completed Outputs
 - `output/manuscript_draft.md` — Full manuscript with tables and PRISMA diagram
