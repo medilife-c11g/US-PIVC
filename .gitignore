@@ -37,3 +37,5 @@ patient_data/
 .claude/cache/
 .vscode/
 .idea/
+Icon
+.DS_Store
