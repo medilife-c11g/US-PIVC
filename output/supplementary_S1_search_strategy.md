@@ -4,7 +4,8 @@
 Post-insertion outcomes of ultrasound-guided versus landmark peripheral intravenous catheters: a systematic review and meta-analysis
 
 ## Authors
-Chia-Ching Chen, MD; Tai-An Lee, MD
+Tai-An Lee, MD†; Yu-Ling Wang†; Jen-Tao Wang; Chia-Ching Chen, MD*
+†These authors contributed equally. *Corresponding author
 
 ## PROSPERO Registration
 CRD420261354170

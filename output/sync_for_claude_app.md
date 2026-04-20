@@ -9,7 +9,7 @@
 
 ---
 
-### Final Study Count: 14 studies (5 RCTs, 9 cohort studies, 78,329 participants)
+### Final Study Count: 14 studies (5 RCTs, 9 cohort studies, 78,209 participants)
 
 ### Key Results (Updated 2026-04-09 with Desai + Nishizawa)
 
