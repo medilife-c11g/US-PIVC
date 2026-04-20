@@ -19,7 +19,7 @@
 | 02c | CINAHL manual export | ✅ Done | 2026-03-29 | 50 records |
 | 03 | Deduplication | ✅ Done | 2026-03-29 | 1,632 total → 273 duplicates → 1,359 unique |
 | 04 | Title/Abstract screening (Rayyan) | ✅ Done | 2026-04-03 | Rayyan #1961147; Consensus: 17 Include, 0 Maybe, 1,342 Exclude |
-| 04a | AI co-reviewer screening + kappa | ✅ Done | 2026-04-03 | Kappa=0.216, 97.1% agreement; 40 disagreements resolved by consensus |
+| 04a | Second reviewer (Masuni Wang) screening + kappa | ✅ Done | 2026-04-20 | Kappa=0.330, 95.8% agreement; 57 disagreements resolved by primary reviewer (PI); Rayyan export 2026-04-20_17-45-53; Diane (Lee) & Jen Tao data excluded (did not complete) |
 | 04b | Post-consensus removals | ✅ Done | 2026-04-03 | Removed: Avelar (Portuguese), oncology nurses (unpublished), ICU nurses DIVA (unpublished) |
 | 05 | Full-text retrieval | ✅ Done | 2026-04-09 | All 14 full texts obtained. Desai 2018 (JAVA 23:3) + Nishizawa 2020 (JAVA 25:2) retrieved 2026-04-09. |
 | 05a | Full-text screening | ✅ Done | 2026-04-09 | Malik excluded (single-arm). 14 studies confirmed eligible. Dachepally, Paladini, Refosco & Desai flagged for catheter confounding. |
@@ -137,14 +137,17 @@ Three rounds of AI-assisted peer review (via ChatGPT simulation) completed. Stat
 | R2 | Study characteristics counts fixed (7 adult/7 paed; ED=8/ICU=3); extravasation Table 3 RR removed → "not pooled"; HKSJ borderline statement added; PRISMA flow cleaned | ✅ |
 | R3 | AI screening paragraph further tightened (human decision emphasis); Results compressed (individual studies → 3 paragraphs); PRISMA ambiguous bracket removed; Table 3 extravasation finalised | ✅ |
 
-### Next Actions (Updated 2026-04-18)
+### Next Actions (Updated 2026-04-21)
 1. ~~Retrieve unavailable full-texts~~ — DONE
 2. ~~Unify participant totals~~ — DONE (78,209 throughout)
 3. ~~REML+HKSJ sensitivity analysis~~ — DONE
-4. **PENDING**: Confirm with Dr. Lee whether independent data extraction was performed (affects "independently by two reviewers" sentence in Methods)
-5. **PENDING**: Dr. Lee to complete manuscript review / co-author sign-off before submission
-6. Convert forest plots to TIFF 300 dpi (journal requirement)
-7. Submit to The Ultrasound Journal (BMC)
+4. ~~Second reviewer screening (Masuni Wang = Yu-Ling Wang)~~ — DONE (kappa=0.330, 95.8%)
+5. ~~Author information updated~~ — DONE (4 authors: Tai-An Lee†, Yu-Ling Wang†, Jen-Tao Wang, Chia-Ching Chen*)
+6. ~~AI screening references removed~~ — DONE (manuscript, screening_consensus, sync_for_claude_app all updated)
+7. ~~Forest plots → TIFF 300 dpi~~ — DONE (`output/tiff/` 6 files)
+8. **PENDING**: 四位作者填入 ORCID
+9. **PENDING**: 所有作者簽核確認
+10. **PENDING**: Submit to The Ultrasound Journal (BMC)
 
 ### Completed Outputs
 - `output/manuscript_draft.md` — Full manuscript with tables and PRISMA diagram

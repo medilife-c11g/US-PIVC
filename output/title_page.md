@@ -7,10 +7,16 @@ Post-insertion outcomes of ultrasound-guided versus landmark peripheral intraven
 Post-insertion outcomes of USG vs landmark PIVCs
 
 ## Authors
-Chia-Ching Chen, MD^1^; Tai-An Lee, MD^1^
+Tai-An Lee, MD^1,†^; Yu-Ling Wang^2,†^; Jen-Tao Wang^3^; Chia-Ching Chen, MD^4,*^
+
+^†^These authors contributed equally to this work.
+^*^Corresponding author
 
 ## Affiliations
-^1^ Department of Emergency Medicine, Changhua Show Chwan Memorial Hospital, Changhua, Taiwan
+^1^ Department of Emergency Medicine, Chang Bing Show Chwan Memorial Hospital, Changhua, Taiwan
+^2^ Department of Gastroenterology, Chang Bing Show Chwan Memorial Hospital, Changhua, Taiwan
+^3^ Department of Surgery, Show Chwan Memorial Hospital, Changhua, Taiwan
+^4^ Department of Emergency Medicine, Changhua Show Chwan Memorial Hospital, Changhua, Taiwan
 
 ## Corresponding Author
 Chia-Ching Chen, MD
@@ -20,8 +26,10 @@ No. 542, Sec. 1, Zhongshan Rd., Changhua City, Changhua County 500, Taiwan
 Email: c11g@hotmail.com
 
 ## ORCID
-Chia-Ching Chen: [insert ORCID]
 Tai-An Lee: [insert ORCID]
+Yu-Ling Wang: [insert ORCID]
+Jen-Tao Wang: [insert ORCID]
+Chia-Ching Chen: [insert ORCID]
 
 ## Word Count
 - Abstract: ~350 words
@@ -42,7 +50,7 @@ None.
 The authors declare no conflicts of interest.
 
 ## Authors' Contributions
-C.C.C. conceived and designed the study, performed the literature search, screening, data extraction, statistical analysis, and drafted the manuscript. T.A.L. independently performed screening, data extraction, and risk of bias assessment, and critically reviewed the manuscript. Both authors read and approved the final version.
+T.A.L. and Y.L.W. contributed equally to this work and share first authorship. C.C.C. conceived and designed the study, performed the literature search, data extraction, statistical analysis, and drafted the manuscript. T.A.L. independently performed title/abstract screening, data extraction, and risk of bias assessment, and critically reviewed the manuscript. Y.L.W. independently performed title/abstract screening and data extraction, and critically reviewed the manuscript. J.T.W. assisted with data verification and critically reviewed the manuscript. All authors read and approved the final version.
 
 ## Availability of Data and Materials
 The datasets generated and analysed during the current study, including search results, extracted data, and R analysis code, are available from the corresponding author upon reasonable request.
