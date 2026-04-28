@@ -34,7 +34,7 @@ Systematic review and meta-analysis: "Post-insertion outcomes of ultrasound-guid
   - PubMed: 530 | Embase: 984 | Cochrane: 68 | CINAHL: 50
 - Screening: ✅ Complete — Rayyan Review #1961147
   - Consensus: 17 Include, 0 Maybe, 1,342 Exclude
-  - AI co-reviewer kappa=0.216, 97.1% agreement; all 40 disagreements resolved
+  - Masuni Wang (second reviewer) kappa=0.330, 95.8% agreement; 57 disagreements resolved (PI took precedence on remaining post-discussion conflicts)
   - Removed post-consensus: Avelar (Portuguese), oncology nurses (unpublished), ICU nurses DIVA (unpublished)
 - Full-text retrieval: ✅ Complete — all PDFs found (Desai + Nishizawa added 2026-04-09)
   - ⚠️ Malik A excluded at full-text stage (single-arm, no landmark comparator)

@@ -149,15 +149,20 @@ if (sum(dwell_idx) >= 2) {
 
   i2 <- round(m_dwell$I2 * 100, 1)
   cat("\nI² =", i2, "%\n")
-  if (i2 > 75) cat("SUBSTANTIAL HETEROGENEITY — narrative synthesis recommended\n")
+  if (i2 > 75) cat("SUBSTANTIAL HETEROGENEITY — pooled estimate suppressed per pre-specified I²>75% rule\n")
   print(summary(m_dwell))
 
+  # H1 fix (2026-04-28, post Codex audit): when I²>75%, suppress pooled diamond
+  # to enforce the methods-stated rule. Keep individual study estimates visible.
   pdf(paste0(output_dir, "/forest_dwell_time.pdf"), width = 12, height = 5)
   forest(m_dwell,
-         prediction = TRUE,
+         prediction = (i2 <= 75),
+         random = (i2 <= 75), fixed = FALSE,
          print.tau2 = TRUE, print.I2 = TRUE,
-         smlab = "Dwell Time\nMean Difference (hours)",
-         col.diamond = ifelse(i2 > 75, "red", "blue"))
+         smlab = ifelse(i2 > 75,
+                        "Dwell Time\nMean Difference (hours) — NOT POOLED (I²>75%)",
+                        "Dwell Time\nMean Difference (hours)"),
+         col.diamond = "blue")
   dev.off()
   cat("Forest plot saved: output/forest_dwell_time.pdf\n")
 } else {
@@ -219,10 +224,19 @@ if (sum(extrav_idx) >= 2) {
     random = TRUE, fixed = TRUE,
     title = "Extravasation"
   )
+  i2_extrav <- round(m_extrav$I2 * 100, 1)
+  cat("\nExtravasation I² =", i2_extrav, "%\n")
+  if (i2_extrav > 75) cat("SUBSTANTIAL HETEROGENEITY — pooled estimate suppressed per pre-specified I²>75% rule\n")
   print(summary(m_extrav))
 
+  # H1 fix: same suppression rule as dwell time
   pdf(paste0(output_dir, "/forest_extravasation.pdf"), width = 12, height = 5)
-  forest(m_extrav, print.I2 = TRUE, smlab = "Extravasation\nRisk Ratio")
+  forest(m_extrav,
+         random = (i2_extrav <= 75), fixed = FALSE,
+         print.I2 = TRUE,
+         smlab = ifelse(i2_extrav > 75,
+                        "Extravasation\nRisk Ratio — NOT POOLED (I²>75%)",
+                        "Extravasation\nRisk Ratio"))
   dev.off()
   cat("Forest plot saved: output/forest_extravasation.pdf\n")
 } else {
@@ -277,6 +291,94 @@ if (sum(rct_fail_idx) >= 2) {
   print(summary(m_rct))
 } else {
   cat("Fewer than 2 RCTs with failure data — skipping.\n")
+}
+
+# ============================================================
+# 7b. SENSITIVITY: Cohort-only & Design Subgroup (Codex audit B2 fix, 2026-04-28)
+# ============================================================
+cat("\n", rep("=", 60), "\n")
+cat("SENSITIVITY: Cohort-only / Design Subgroup — Catheter Failure\n")
+cat(rep("=", 60), "\n")
+
+cohort_fail_idx <- fail_idx & df$design == "Cohort"
+if (sum(cohort_fail_idx) >= 2) {
+  m_cohort <- metabin(
+    event.e = df$failure_usg[cohort_fail_idx],
+    n.e     = df$n_usg[cohort_fail_idx],
+    event.c = df$failure_lm[cohort_fail_idx],
+    n.c     = df$n_lm[cohort_fail_idx],
+    studlab = labels[cohort_fail_idx],
+    sm = "RR", method = "MH", method.tau = "DL",
+    random = TRUE, fixed = TRUE
+  )
+  cat("Cohorts only (k =", m_cohort$k, "):\n")
+  print(summary(m_cohort))
+} else {
+  cat("Fewer than 2 cohorts with failure data — skipping.\n")
+}
+
+# Design subgroup interaction (test for design effect)
+if (!is.null(m_fail) && m_fail$k >= 3) {
+  design_sub <- df$design[fail_idx]
+  if (length(unique(design_sub)) > 1) {
+    cat("\nDesign subgroup interaction (RCT vs Cohort):\n")
+    m_design <- update(m_fail, subgroup = design_sub)
+    print(summary(m_design))
+  } else {
+    cat("Only one design type — design subgroup not testable.\n")
+  }
+}
+
+# ============================================================
+# 7c. SENSITIVITY: Leave-one-out + largest-study influence (Codex audit H5, 2026-04-28)
+# ============================================================
+cat("\n", rep("=", 60), "\n")
+cat("SENSITIVITY: Leave-one-out — Catheter Failure\n")
+cat(rep("=", 60), "\n")
+
+if (!is.null(m_fail) && m_fail$k >= 3) {
+  m_loo <- metainf(m_fail, pooled = "random")
+  cat("Leave-one-out (random-effects) for catheter failure:\n")
+  print(m_loo)
+
+  # Identify the largest-weight study (Saltarelli per audit; verify dynamically)
+  weights_random <- m_fail$w.random / sum(m_fail$w.random) * 100
+  largest_idx <- which.max(weights_random)
+  cat(sprintf("\nLargest-weight study: %s (%.1f%% weight)\n",
+              m_fail$studlab[largest_idx], weights_random[largest_idx]))
+  cat(sprintf("After excluding %s: pooled RR = %s\n",
+              m_fail$studlab[largest_idx],
+              gsub(" ", "", m_loo$studlab[largest_idx])))
+
+  # Save LOO results to CSV by reconstructing manually (metainf accessors vary by version)
+  loo_df <- data.frame(
+    study_excluded = m_fail$studlab,
+    weight_in_full_model = sprintf("%.1f%%", weights_random),
+    pooled_RR_95CI = NA_character_,
+    p_value = NA_character_,
+    I2 = NA_character_,
+    stringsAsFactors = FALSE
+  )
+  for (k in seq_along(m_fail$studlab)) {
+    keep <- seq_along(m_fail$studlab) != k
+    m_k <- metabin(
+      event.e = m_fail$event.e[keep], n.e = m_fail$n.e[keep],
+      event.c = m_fail$event.c[keep], n.c = m_fail$n.c[keep],
+      studlab = m_fail$studlab[keep],
+      sm = "RR", method = "MH", method.tau = "DL",
+      random = TRUE, fixed = TRUE
+    )
+    loo_df$pooled_RR_95CI[k] <- sprintf("%.2f [%.2f, %.2f]",
+                                        exp(m_k$TE.random),
+                                        exp(m_k$lower.random),
+                                        exp(m_k$upper.random))
+    loo_df$p_value[k] <- format.pval(m_k$pval.random, digits = 3)
+    loo_df$I2[k] <- sprintf("%.1f%%", m_k$I2 * 100)
+  }
+  write_csv(loo_df, paste0(output_dir, "/SupTable_LOO_catheter_failure.csv"))
+  cat("\nLOO table saved: output/SupTable_LOO_catheter_failure.csv\n")
+} else {
+  cat("Fewer than 3 studies — LOO not informative.\n")
 }
 
 # ============================================================
@@ -360,19 +462,29 @@ for (name in names(results_list)) {
   i2_pct <- round(m$I2 * 100, 1)
   poolable <- ifelse(i2_pct > 75, "No", "Yes")
 
-  if (inherits(m, "metabin")) {
+  # H1 fix (2026-04-28, post Codex audit): for non-poolable outcomes, do not
+  # report a pooled estimate or p-value to avoid contradicting the methods-stated
+  # I²>75% no-pooling rule. The exploratory random-effects values are still
+  # visible in the R console output but are deliberately omitted from the
+  # submission summary CSV.
+  if (poolable == "No") {
+    est <- "Not pooled (exploratory only)"
+    pval_disp <- "—"
+  } else if (inherits(m, "metabin")) {
     est <- sprintf("%.2f [%.2f, %.2f]",
                    exp(m$TE.random), exp(m$lower.random), exp(m$upper.random))
+    pval_disp <- format.pval(m$pval.random, digits = 3)
   } else {
     est <- sprintf("%.1f [%.1f, %.1f]",
                    m$TE.random, m$lower.random, m$upper.random)
+    pval_disp <- format.pval(m$pval.random, digits = 3)
   }
 
   summary_rows[[length(summary_rows) + 1]] <- data.frame(
     Outcome = name, k = m$k,
     Estimate_95CI = est,
     I2 = paste0(i2_pct, "%"),
-    p_value = format.pval(m$pval.random, digits = 3),
+    p_value = pval_disp,
     Poolable = poolable,
     stringsAsFactors = FALSE
   )

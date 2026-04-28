@@ -41,9 +41,9 @@ draw_box(40, 71, 30, 6,
 
 draw_arrow(55, 71, 68, 71)
 
-draw_box(80, 71, 22, 5,
-         "Records excluded\n(n = 1,342)",
-         fill = "#FDE8E8", border = "#CB181D", cex = 0.7)
+draw_box(80, 71, 24, 9,
+         "Records excluded at T/A (n = 1,340)\n\nBoth-reviewer exclude: 1,287\nSingle-reviewer include\nadjudicated EXC at\nsecond-pass T/A: 53",
+         fill = "#FDE8E8", border = "#CB181D", cex = 0.55)
 
 # ===== FULL-TEXT RETRIEVAL =====
 draw_arrow(40, 68, 40, 63)
@@ -51,7 +51,7 @@ draw_arrow(40, 68, 40, 63)
 text(5, 64, "ELIGIBILITY", adj = 0, font = 2, cex = 0.9, col = "#555555")
 
 draw_box(40, 60, 30, 5,
-         "Reports sought for retrieval\n(n = 17)",
+         "Reports sought for retrieval\n(n = 19)",
          fill = "#E8F4FD", cex = 0.7)
 
 draw_arrow(55, 60, 68, 60)
@@ -64,13 +64,13 @@ draw_box(80, 60, 22, 7,
 draw_arrow(40, 57.5, 40, 52)
 
 draw_box(40, 48, 32, 7,
-         "Reports assessed for\neligibility\n(n = 17)",
+         "Reports assessed for\neligibility\n(n = 19)",
          fill = "#E8F4FD", cex = 0.65)
 
 draw_arrow(56, 48, 66, 48)
 
 draw_box(80, 48, 26, 14,
-         "Reports excluded (n = 6)\n\nSingle-arm, no comparator:\n  1 (Malik)\nPortuguese language:\n  1 (Avelar)\nNot published:\n  2 (oncology nurses,\n     ICU nurses DIVA)\nProtocol only, same trial:\n  1 (Kleidon BJN 2023)\nDuplicate report:\n  1 (Kleidon JVA 2022)",
+         "Reports excluded (n = 5)\n\nSingle-arm, no comparator:\n  1 (Malik)\nPortuguese language:\n  2 (Avelar reports)\nUnpublished:\n  1 (oncology nurses)\nDuplicate/protocol of\nsame EPIC trial:\n  1 (Kleidon BJN 2023 +\n     Kleidon JVA 2022)",
          fill = "#FDE8E8", border = "#CB181D", cex = 0.52)
 
 # ===== INCLUDED =====

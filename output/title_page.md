@@ -36,7 +36,7 @@ Chia-Ching Chen: [insert ORCID]
 - Main text: ~6,200 words (excluding references, tables, and figures)
 
 ## Number of Tables and Figures
-- Tables: 3 (Table 1: Study characteristics [12 studies]; Table 2: Risk of bias; Table 3: GRADE Summary of Findings)
+- Tables: 3 (Table 1: Study characteristics [14 studies]; Table 2: Risk of bias; Table 3: GRADE Summary of Findings)
 - Figures: 6 (Figure 1: PRISMA flow diagram; Figures 2-6: Forest plots)
 - Supplementary Materials: 3 (S1: Search strategies; S2: Excluded studies; S3: PRISMA checklist)
 

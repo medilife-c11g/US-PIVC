@@ -1,5 +1,27 @@
 # Progress Tracker — USG-PIVC Post-Insertion Outcomes Meta-Analysis
 
+## 2026-04-28 — Codex audit + 8 fixes applied (M3 / H1-H5 / M1 / M2)
+
+Ran adversarial Codex methods audit (`task-moi59ese-9x65a2`, 3m 3s) on the full manuscript + R script + supplementary materials. 10 ranked risks returned (full output: `notes/Codex_audit_2026-04-28.md`). Top 8 fixed today:
+
+- **M3 (stale numbers)**: title_page n=12→14; CLAUDE.md AI co-reviewer kappa 0.216 → Masuni Wang κ 0.330; manuscript extravasation k=2 / I²=96.7% → k=3 / I²=95.7%
+- **H4 (GRADE Table 3)**: regenerated `output/table3_grade_sof.csv` — extravasation classification fixed (2 RCTs + 1 cohort), dwell time row updated to "Not pooled (I²=91.9%)" instead of stale pooled MD; manuscript inline Table 3 row 207 corrected
+- **H1 (suppress non-poolable estimates)**: R script `04_meta_analysis.R` — when I²>75%, forest plots now omit pooled diamond; summary CSV reports "Not pooled (exploratory only)" for dwell time + extravasation
+- **H3 (RoB completeness)**: added domain-level RoB 2 / NOS for Nishizawa, Cottrell, Refosco, Desai to `output/risk_of_bias.md` (now covers all 14 studies)
+- **H2 (AI tool disclosure)**: added ICMJE 2024-compliant Use of AI declaration to manuscript footer
+- **H5 (LOO largest-study influence)**: R script + `output/SupTable_LOO_catheter_failure.csv` — Saltarelli (49.8% weight) excluded → RR 1.18, p=0.28 (effect attenuates); Kleidon (paediatric) excluded → RR 1.28, p=0.032 (becomes significant)
+- **B2 (design subgroup, bonus)**: cohort-only RR 1.29 (1.02-1.63) p=0.036 vs RCT-only RR 1.03 (NS) — borderline overall signal driven by cohorts; added to Results
+- **M1 (equivalence language)**: replaced "perform equivalently" with "no statistically significant difference detected"
+- **M2 (REML+HKSJ post hoc)**: relabeled from "pre-specified" to "*post-hoc* sensitivity analysis (not pre-specified in PROSPERO)"
+
+**Remaining 2 Codex findings still open** (require user input):
+- B1: PRISMA flow inconsistency (72 union vs 17 actually screened) — needs user to clarify how 72-17=55 were filtered before full-text retrieval
+- B2 design heterogeneity GRADE downgrade — narrative paragraph added, formal certainty downgrade still pending
+
+**Files touched today**: `scripts/04_meta_analysis.R`, `output/manuscript_draft.md`, `output/title_page.md`, `output/risk_of_bias.md`, `output/table3_grade_sof.csv`, `CLAUDE.md`. New: `output/SupTable_LOO_catheter_failure.csv`, `notes/Codex_audit_2026-04-28.md`.
+
+---
+
 ## Project Info
 - **PI**: Chia-Ching Chen, MD (陳家慶)
 - **Second reviewer**: Tai-An Lee, MD (LEE TAI AN)

@@ -85,11 +85,15 @@ Studies predominantly focused on:
 
 | Decision | Count |
 |----------|-------|
-| **T/A Include (union rule)** | 19 (both) + 53 (Masuni only) = 72 → full-text |
-| **Full-text screened** | 17 (primary eligible) |
-| **Full-text excluded** | 3 (2 Portuguese Avelar + oncology nurses unpublished) + Malik (single-arm) + Kleidon BJN protocol + Kleidon JVA duplicate = **6 excluded** |
+| **T/A excluded by both reviewers** | 1,287 |
+| **T/A union-include** | 72 (15 both + 4 PI-only + 53 M.W.-only) |
+| **T/A 2nd-pass adjudication** | 53 M.W.-only includes excluded after PI's PICO re-read; all 4 PI-only includes advanced to FT for confirmation |
+| **Records advancing to FT retrieval** | 19 (15 both + 4 PI-only) |
+| **FT retrieved** | 19 (no retrieval failures) |
+| **FT excluded** | **5**: Malik (single-arm), 2 Avelar (Portuguese), 1 oncology-nurses (unpublished), 1 EPIC-trial overlap (Kleidon BJN 2023 protocol + Kleidon JVA 2022 dup; both excluded as overlapping reports of the single included Kleidon TM JAMA Pediatrics 2025 primary publication) |
 | **Final included** | **14 studies** |
-| **T/A Exclude** | 1,287 |
+
+*[2026-04-28 revision: re-stated to align with manuscript Methods + PRISMA flow diagram. Earlier draft of this file showed "FT excluded = 6" treating Kleidon BJN and Kleidon JVA as separate exclusions; revised to "5 FT excluded" treating the two overlapping Kleidon reports as a single EPIC-trial-overlap exclusion since they are not independent studies. PRISMA tally now consistent across manuscript line 50, line 78, Limitations line 166, and `prisma_flowchart.pdf`.]*
 
 ## Final 14 Included Studies
 

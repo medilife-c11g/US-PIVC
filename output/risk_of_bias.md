@@ -1,5 +1,5 @@
 # Risk of Bias Assessment
-## Date: 2026-04-03
+## Date: 2026-04-03 (updated 2026-04-28: added Nishizawa, Cottrell, Refosco, Desai)
 
 ---
 
@@ -44,6 +44,16 @@
 | D4: Measurement of outcome | Some concerns | Postinsertion failure determined from EHR by non-blinded investigators |
 | D5: Selection of reported result | Low | Pre-registered (NCT04218643) |
 | **Overall** | **High risk** | Significant attrition (>25%) for postremoval outcomes; underpowered (target 582, enrolled 223 due to COVID) |
+
+### 5. Nishizawa T 2020 (J Adv Nurs / JAVA)
+| Domain | Judgement | Rationale |
+|--------|----------|-----------|
+| D1: Randomization | Low | Computer-generated allocation sequence, sealed opaque envelopes |
+| D2: Deviations from intended interventions | Some concerns | Open-label by necessity (technique cannot be blinded); nurse-performed by trained ICU nurses |
+| D3: Missing outcome data | Low | All 60 randomized patients (30 USG / 30 standard) included in analysis |
+| D4: Measurement of outcome | Some concerns | Extravasation as secondary outcome assessed by non-blinded ICU nurses; subjective component in defining catheter removal cause |
+| D5: Selection of reported result | Low | Pre-specified secondary outcomes per published protocol |
+| **Overall** | **Some concerns** | Open-label, non-blinded assessment of secondary safety outcome; small sample (n=60 limits precision) |
 
 ---
 
@@ -97,6 +107,30 @@
 | Outcome (max 3) | ⭐ | Nursing documentation review; adequate study period. -2: Abstract only — limited methodological detail; potential for incomplete documentation. |
 | **Total** | **5/9** | Conference abstract only; limited detail available |
 
+### 11. Cottrell C 2021 (J Vascular Access)
+| Category | Stars | Rationale |
+|----------|-------|-----------|
+| Selection (max 4) | ⭐⭐⭐ | Consecutive paediatric inpatients with DIVA flag; exposed (USG) and non-exposed (standard) drawn from same vascular access service registry; outcome (dwell time) not present at start. -1: Selection into USG group driven by clinical judgement of difficulty (75% USG were classified as difficult vs 36% standard). |
+| Comparability (max 2) | ⭐ | Same catheter type/length used in both groups (key strength — controls for confounder that affects most other studies). -1: No multivariable adjustment for difficulty score, vein depth, or operator experience. |
+| Outcome (max 3) | ⭐⭐ | Dwell time from electronic vascular access registry (objective); adequate follow-up to catheter removal. -1: Non-blinded data abstraction by registry staff who may be aware of insertion technique. |
+| **Total** | **6/9** | Same catheter type in both groups (strength); USG cases disproportionately classified as difficult (residual confounding) |
+
+### 12. Refosco V 2024 (J Vascular Access)
+| Category | Stars | Rationale |
+|----------|-------|-----------|
+| Selection (max 4) | ⭐⭐ | Paediatric ED patients; USG and blind groups treated as historical/cohort comparison; outcome not present at start. -2: Major catheter-length confounding — USG cannulas were predominantly 64 mm long peripheral catheters vs 19–32 mm short cannulas in blind group; selection by operator/department preference. |
+| Comparability (max 2) | ⭐ | Compared on age and sex. -1: No adjustment for catheter length/material (the key confounder); no adjustment for difficulty class. |
+| Outcome (max 3) | ⭐⭐ | Daily assessment by trained ED nurses; outcome documentation in EMR. -1: Non-blinded assessment. |
+| **Total** | **5/9** | Major catheter-length confounding (64 mm vs 19–32 mm); cannot isolate ultrasound effect from catheter-length effect — flagged as catheter_confounded in primary pooling |
+
+### 13. Desai SC 2018 (J Vascular Access)
+| Category | Stars | Rationale |
+|----------|-------|-----------|
+| Selection (max 4) | ⭐⭐ | Paediatric ED retrospective cohort; outcome (Kaplan-Meier dwell-time survival) not present at start. -2: Major selection bias — USG patients had 55% prior DIVA history vs 7.2% in traditional group; authors acknowledged disproportionate USG use of longer catheters. |
+| Comparability (max 2) | ⭐ | Some adjustment in survival analysis. -1: No adjustment for catheter length (major confounder) or DIVA history. |
+| Outcome (max 3) | ⭐⭐ | Catheter dwell time / removal reason from EMR; reasonable follow-up. -1: Retrospective non-blinded data abstraction. |
+| **Total** | **5/9** | Selection bias (DIVA history disproportionately in USG group); catheter-length confounding — flagged as catheter_confounded in primary pooling |
+
 ---
 
 ## Summary
@@ -107,9 +141,13 @@
 | Bridey 2018 | RoB 2 | Some concerns | Open-label, non-blinded assessment |
 | Varghese 2025 | RoB 2 | Some concerns | 2-hr follow-up only, no pre-registration |
 | Leroux 2023 | RoB 2 | High risk | >25% attrition, underpowered |
+| Nishizawa 2020 | RoB 2 | Some concerns | Open-label; small ICU sample (n=60); secondary outcome |
 | Feinsmith 2021 | NOS | 6/9 | Selection bias (DIVA), missing IFR data |
 | Dachepally 2023 | NOS | 6/9 | Catheter length confounding |
 | Shokoohi 2019 | NOS | 9/9 | Best quality cohort |
 | Favot 2019 | NOS | 5/9 | Ecological comparison |
 | Paladini 2018 | NOS | 6/9 | Catheter type confounding |
 | Saltarelli 2015 | NOS | 5/9 | Abstract only |
+| Cottrell 2021 | NOS | 6/9 | Same catheter type (strength); residual difficulty confounding |
+| Refosco 2024 | NOS | 5/9 | Catheter length confounding (64 mm vs 19–32 mm) |
+| Desai 2018 | NOS | 5/9 | DIVA-history selection + catheter length confounding |
