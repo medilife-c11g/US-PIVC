@@ -410,12 +410,15 @@ cat("\n", rep("=", 60), "\n")
 cat("HR-BASED ANALYSIS: Studies reporting Hazard Ratios\n")
 cat(rep("=", 60), "\n")
 
-# Studies with HR data (log-transform for meta-analysis)
-# Feinsmith: HR 0.91 (0.87-0.95) — USG vs PIV (USG protective)
-# Dachepally: HR 0.50 (0.30-0.69) — inverted from traditional vs USG HR 2.20 (confounded)
-# Shokoohi: RR 1.26 (0.88-1.80) — USG vs LM for premature removal
-
-hr_studies <- c("Feinsmith (2021)", "Shokoohi (2019)")
+# 2026-04-29 (post-ChatGPT review): The previous version pooled Feinsmith (adjusted HR
+# from time-to-event Cox model) with Shokoohi (RR for premature removal at 72h) on
+# the log-HR scale — methodologically incorrect because RR≠HR when the event rate
+# and time horizon differ across studies. We now present each estimate individually
+# WITHOUT a pooled summary; the "forest" plot below uses random=FALSE/fixed=FALSE
+# to suppress the pooled diamond and is reframed as a "study-level estimate"
+# illustration.
+hr_studies <- c("Feinsmith (2021) — adjusted HR (Cox)",
+                "Shokoohi (2019) — RR (premature removal at 72h)")
 hr_loghr   <- c(log(0.91), log(1.26))
 hr_logse   <- c((log(0.95) - log(0.87)) / (2 * 1.96),
                 (log(1.80) - log(0.88)) / (2 * 1.96))
@@ -425,19 +428,22 @@ if (length(hr_studies) >= 2) {
     TE    = hr_loghr,
     seTE  = hr_logse,
     studlab = hr_studies,
-    sm    = "HR",
+    sm    = "RR",
     method.tau = "DL",
     random = TRUE, fixed = TRUE,
-    title = "Catheter Failure/Premature Removal (HR)"
+    title = "Catheter survival / premature removal — individual study estimates only"
   )
+  cat("Individual study estimates (NOT pooled — different effect measures):\n")
   print(summary(m_hr))
 
   pdf(paste0(output_dir, "/forest_HR_failure.pdf"), width = 12, height = 4)
-  forest(m_hr, print.I2 = TRUE,
-         smlab = "Catheter Failure\nHazard Ratio (USG vs LM)",
+  forest(m_hr,
+         random = FALSE, fixed = FALSE,
+         print.I2 = FALSE,
+         smlab = "Catheter survival / premature removal\nIndividual study estimates (NOT pooled — different effect measures)",
          xlim = c(0.5, 2.0))
   dev.off()
-  cat("HR forest plot saved: output/forest_HR_failure.pdf\n")
+  cat("Forest plot (no pooled diamond) saved: output/forest_HR_failure.pdf\n")
 }
 
 # ============================================================
