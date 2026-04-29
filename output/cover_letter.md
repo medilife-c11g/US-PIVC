@@ -37,3 +37,19 @@ Department of Emergency Medicine
 Changhua Show Chwan Memorial Hospital
 Changhua, Taiwan
 Email: c11g@hotmail.com
+
+---
+
+## Use of Artificial Intelligence (per ICMJE 2024 and Springer-Nature policy)
+
+During preparation of this manuscript, the authors used ChatGPT (OpenAI) and Gemini (Google) as drafting and language-editing assistants, and as adjudication aids for cross-checking the methodology and findings. AI tools were also used to assist with code review of the analytic R script and to surface potential reviewer-style critiques of design choices.
+
+Specifically, AI was used for:
+1. Suggesting language refinements and identifying ambiguities in early manuscript drafts
+2. Cross-checking mathematical and statistical reasoning
+3. Identifying methodological inconsistencies between Methods, Results, and analysis outputs
+4. Preparing language-translated versions of search strings
+
+AI was **not** used to generate primary scientific content, draft conclusions, or interpret clinical findings. All AI-generated suggestions were reviewed, verified, and edited by the human authors, who take full responsibility for the accuracy and integrity of all content presented in this manuscript. No AI tool is listed as an author.
+
+Screening and data extraction were performed by human reviewers (PI Chia-Ching Chen and second reviewer Masuni Wang); a separate AI-assisted second-pass reading was used as an internal sanity-check on extraction consistency, and any discrepancies were adjudicated by the human reviewers.

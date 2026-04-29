@@ -13,9 +13,9 @@ PROSPERO Registration: CRD420261354170
 
 **Background:** Ultrasound-guided (USG) peripheral intravenous catheter (PIVC) insertion has been widely adopted to improve first-attempt success rates, particularly in patients with difficult intravenous access (DIVA). However, whether USG confers any benefit on post-insertion outcomes such as catheter failure, dwell time, and complications remains unclear. We conducted a systematic review and meta-analysis to evaluate post-insertion outcomes of USG versus landmark-guided PIVC placement.
 
-**Methods:** We searched PubMed, Embase, Cochrane CENTRAL, and CINAHL from January 2000 to March 2026 for RCTs and comparative cohort studies comparing USG with landmark PIVC insertion and reporting at least one post-insertion outcome. Two reviewers screened in duplicate (95.8% agreement; Cohen's κ = 0.330). Of 72 union-include records at title/abstract, 57 single-reviewer-include records underwent pre-specified second-pass adjudication against PICO criteria; 19 advanced to full-text. Risk of bias was assessed by RoB 2 (RCTs) and Newcastle-Ottawa (cohorts). Random-effects meta-analysis used DerSimonian-Laird; REML+HKSJ was a *post-hoc* sensitivity analysis.
+**Methods:** We searched PubMed, Embase, Cochrane CENTRAL, and CINAHL from January 2000 to March 2026 for RCTs and comparative cohort studies comparing USG with landmark PIVC insertion and reporting at least one post-insertion outcome. Two reviewers screened in duplicate (95.8% agreement; Cohen's κ = 0.330) with pre-specified second-pass adjudication of single-reviewer-include records. Risk of bias used RoB 2 (RCTs) and Newcastle-Ottawa (cohorts). Random-effects meta-analysis used DerSimonian-Laird as primary estimator; REML+HKSJ was a *post-hoc* sensitivity analysis given small per-outcome k.
 
-**Results:** Fourteen studies (5 RCTs, 9 cohorts; 78,209 participants) were included. Catheter failure did not differ significantly between USG and landmark groups (k = 4; RR 1.23, 95% CI 0.99--1.51; p = 0.056; I^2^ = 0%; REML+HKSJ post-hoc: RR 1.225, 1.005--1.493, p = 0.047). In *post-hoc* design-stratified analyses, the borderline signal arose from the cohort studies (k = 2; RR 1.29, 1.02--1.63; p = 0.036) while RCT-only was flat (k = 2; RR 1.03, 0.66--1.61; p = 0.88; design interaction p = 0.37, underpowered). Leave-one-out showed dependence on the largest cohort (Saltarelli, 49.8% weight: excluding it attenuated the pooled estimate to RR 1.18, 0.88--1.58, p = 0.28). Dwell time and extravasation could not be pooled due to substantial heterogeneity (k = 3, I²=91.9%; k = 3, I²=95.7%) per the pre-specified I²>75% rule and were reported narratively. Infiltration showed no difference (k = 2; RR 0.68, 0.12--3.83; I^2^ = 65.9%). Four studies reporting favourable USG results were confounded by systematic differences in catheter length/type.
+**Results:** Fourteen studies (5 RCTs, 9 cohorts; 78,209 participants) were included. Catheter failure did not differ significantly between USG and landmark groups (k = 4; RR 1.23, 95% CI 0.99--1.51; p = 0.056); the result was sensitive to estimator choice and to single-study exclusion in post-hoc sensitivity analyses. Dwell time and extravasation could not be pooled due to substantial heterogeneity (I² = 91.9% and 95.7%, respectively) and were reported narratively. Infiltration showed no difference (k = 2; RR 0.68, 0.12--3.83). Four studies reporting favourable USG results were confounded by systematic differences in catheter length/type.
 
 **Conclusions:** Current evidence does not demonstrate a consistent post-insertion advantage of USG over landmark PIVC placement, although a clinically meaningful effect cannot be excluded with the small evidence base. Observed dwell-time advantages in several studies appear at least partially attributable to differences in catheter length and material rather than to ultrasound guidance per se. Adequately powered RCTs that control for catheter specifications are needed before this question can be considered settled.
 
@@ -45,7 +45,7 @@ A comprehensive literature search was performed across four electronic databases
 
 ### Study Selection
 
-After removal of 273 duplicates, 1,359 unique records underwent title and abstract screening. Two reviewers (C.C.C. and M.W.) independently screened all records in duplicate using Rayyan (Rayyan Systems Inc., Cambridge, MA, USA). Overall percent agreement was 95.8% (Cohen's kappa = 0.330,^11^ a value within the range commonly reported for systematic-review T/A screening under high exclusion prevalence). At the title/abstract stage, 1,287 records were excluded by both reviewers and 72 records met a union-inclusion threshold (i.e., were marked include by at least one reviewer): 15 were independently included by both reviewers, 4 were included only by the primary reviewer (C.C.C.) with the second reviewer (M.W.) marking exclude, and 53 were included only by the second reviewer with the primary reviewer marking exclude or maybe. Records with single-reviewer inclusion (n = 57; the 4 PI-only and 53 M.W.-only records) underwent a pre-specified second-pass title/abstract adjudication by the primary reviewer with explicit reference to the PICO criteria, in line with conservative consensus practice for systematic reviews where second-reviewer inclusion is over-inclusive at T/A; 53 were judged not to meet the PICO at title/abstract level (predominantly: first-attempt insertion success outcomes outside the post-insertion PICO, midline or long-peripheral catheter comparisons without a USG-vs-landmark contrast, single-arm designs, or unpublished protocols), and 4 were judged eligible for full-text retrieval pending further confirmation. Following this second-pass T/A adjudication, 19 records advanced to full-text retrieval (15 both-reviewer includes plus the 4 PI-only includes for which T/A judgement could not safely exclude without full-text inspection).
+After removal of 273 duplicates, 1,359 unique records underwent title and abstract screening by two reviewers (C.C.C. and M.W.) independently in Rayyan (Rayyan Systems Inc., Cambridge, MA, USA). Overall percent agreement was 95.8% (Cohen's kappa = 0.330). Both reviewers concurrently excluded 1,287 records; 15 were both-reviewer includes; 57 records were single-reviewer includes (4 PI-only, 53 second-reviewer-only). Single-reviewer-include records underwent pre-specified second-pass title/abstract adjudication by the primary reviewer against the PROSPERO PICO; 53 were judged outside scope at this stage with documented reasons (first-attempt insertion outcome; midline/long-peripheral catheter; single-arm; unpublished protocol), and 4 advanced to full-text for confirmation. In total, 19 records advanced to full-text retrieval.
 
 All 19 records advancing to full-text consideration were retrieved and screened. After full-text review and consensus discussion, 14 studies met all inclusion criteria and were included in the final analysis. Five reports were excluded at the full-text stage: (1) Malik et al. — single-arm study without a comparator group; (2–3) two Avelar et al. reports — Portuguese-language full text not available with reliable translation; (4) one oncology-nurses report — unpublished at time of search; (5) Kleidon et al. (J Vasc Access, 2022) — duplicate report of the primary EPIC trial publication (Kleidon et al., JAMA Pediatrics, 2025), and Kleidon et al. (BJN, 2023) — trial-protocol-only publication of the same EPIC trial without post-insertion outcome data, both of which were excluded as overlapping reports of the single included EPIC primary publication. Two studies (Desai et al., 2018; Nishizawa et al., 2020) were not available through initial institutional access but were subsequently retrieved via interlibrary loan and included in the final analysis (see Supplementary Material S2).
 
@@ -103,9 +103,9 @@ Among the nine cohort studies, NOS scores ranged from 5 to 9 (Table 2). Shokoohi
 
 Four studies reported catheter failure or premature removal as a dichotomous outcome and were eligible for pooling (Kleidon et al., 2025; Leroux et al., 2023; Shokoohi et al., 2019; Saltarelli et al., 2015). The pooled random-effects RR was 1.23 (95% CI 0.995--1.508; p = 0.056; I^2^ = 0%), indicating no statistically significant difference between USG and landmark groups (Figure 2). Although the lower bound rounds to 1.00 at two decimal places, the precise value (0.995) confirms that the confidence interval crossed unity. The point estimate favoured landmark insertion. In a *post-hoc* sensitivity analysis using the REML estimator and HKSJ confidence interval adjustment (not pre-specified in PROSPERO), the result was directionally consistent (RR 1.225, 95% CI 1.005--1.493; p = 0.047). The primary DL estimate (p = 0.056) and HKSJ sensitivity estimate (p = 0.047) both straddle the conventional α = 0.05 threshold, indicating that statistical significance is borderline and sensitive to estimator choice; clinical interpretation should therefore emphasise the point estimate and the overall pattern of evidence rather than significance alone. A fourth cohort study (Desai et al. 2018) was eligible by outcome but excluded from primary pooling due to selection bias and catheter length confounding.
 
-Leave-one-out sensitivity analysis demonstrated that removal of Kleidon et al. (2025) -- the only paediatric study contributing to this analysis -- shifted the pooled estimate to RR 1.28 (95% CI 1.02--1.60; p = 0.032), achieving statistical significance unfavourable to USG. Conversely, removing Saltarelli et al. (2015), which contributed 49.8% of the random-effects weight as the largest cohort, attenuated the pooled estimate to RR 1.18 (95% CI 0.88--1.58; p = 0.28); the borderline catheter failure signal therefore depends substantially on the largest single study, a sensitivity that warrants explicit acknowledgement (Supplementary Table S4: leave-one-out for catheter failure).
+Leave-one-out sensitivity analysis demonstrated that removing Kleidon et al. (2025) -- the only paediatric study in this pool -- shifted the estimate to RR 1.28 (95% CI 1.02--1.60; p = 0.032), while removing Saltarelli et al. (2015), the largest contributor at 49.8% random-effects weight, attenuated the estimate to RR 1.18 (95% CI 0.88--1.58; p = 0.28); the borderline catheter-failure result therefore depends substantially on the largest single study (Supplementary Table S4: leave-one-out for catheter failure).
 
-A *post-hoc* design-stratified analysis (added in response to reviewer-style adversarial audit) showed that the catheter-failure signal arose primarily from the cohort studies (k = 2; RR 1.29, 95% CI 1.02--1.63; p = 0.036), whereas the RCT-only estimate was essentially flat (k = 2; RR 1.03, 95% CI 0.66--1.61; p = 0.88). The test for design-by-effect interaction was non-significant (p = 0.37); however, with only 2 studies in each design tier, this comparison is severely underpowered, and the qualitative observation that the borderline overall signal is driven by the cohort studies rather than the RCTs is itself reviewer-relevant and should be considered when interpreting the magnitude of any post-insertion disadvantage of USG.
+A *post-hoc* design-stratified analysis showed that the catheter-failure signal arose primarily from the cohort studies (k = 2; RR 1.29, 95% CI 1.02--1.63; p = 0.036), whereas the RCT-only estimate was essentially flat (k = 2; RR 1.03, 95% CI 0.66--1.61; p = 0.88). The design-by-effect interaction test was non-significant (p = 0.37); with only 2 studies in each design tier this comparison is severely underpowered. This pattern suggests that the overall estimate is influenced more by the cohort studies than by the RCTs.
 
 #### Primary Outcome: Dwell Time
 
@@ -139,7 +139,7 @@ Four studies were excluded from the primary pooled analyses due to systematic di
 
 ## DISCUSSION
 
-This systematic review and meta-analysis is, to our knowledge, the first to specifically and comprehensively evaluate post-insertion outcomes of USG compared with landmark PIVC placement. Across 14 studies enrolling 78,209 participants, we found no statistically significant evidence that USG insertion improves catheter failure rates, dwell time, or other post-insertion complications. The pooled RR for catheter failure was 1.23 (95% CI 0.99--1.51; p = 0.056), a borderline non-significant result that, if anything, trended unfavourably for USG. Dwell time results were heterogeneous and could not be pooled (I² = 91.9%). These findings challenge the implicit assumption that the well-documented insertion benefits of USG translate into superior catheter performance after placement.
+This systematic review and meta-analysis is, to our knowledge, the first to specifically and comprehensively evaluate post-insertion outcomes of USG compared with landmark PIVC placement. Across 14 studies enrolling 78,209 participants, we found no statistically significant evidence that USG insertion improves catheter failure rates, dwell time, or other post-insertion complications. The pooled RR for catheter failure was 1.23 (95% CI 0.99--1.51; p = 0.056), a non-significant estimate with a point estimate above 1.0. Dwell time results were heterogeneous and could not be pooled (I² = 91.9%). These findings challenge the implicit assumption that the well-documented insertion benefits of USG translate into superior catheter performance after placement.
 
 The addition of Cottrell et al. (2021) introduced substantial heterogeneity into the dwell time analysis (I² = 91.9%), preventing meta-analytic pooling. This study's positive finding -- a 36.7-hour dwell time advantage for USG -- is notable because it used identical catheter types in both groups, thus controlling for the catheter length confounding present in other positive studies. However, the Cottrell et al. finding should be interpreted in context: USG cases were disproportionately classified as difficult (75% vs. 36%), and the specialised vascular access team may have achieved superior catheter placement through vessel selection expertise rather than ultrasound guidance per se.
 
@@ -163,7 +163,7 @@ The subgroup analysis by age group generated a hypothesis worth noting in the co
 
 As reported above (Results, Catheter Failure), the *post-hoc* design-stratified analysis showed that the borderline overall failure signal arose from the cohort studies (RR 1.29, 95% CI 1.02--1.63) while the RCT-only estimate was flat (RR 1.03, 95% CI 0.66--1.61). The Feinsmith et al. (2021) study, while the largest cohort by sample size, is inherently subject to selection bias: patients who receive USG PIVCs are those who have already failed landmark attempts, representing a population with intrinsically more difficult venous access and potentially different catheter outcomes — illustrating one source of the divergence between cohort-driven and RCT-driven estimates.
 
-This review has several important limitations. First, the evidence base is small and heterogeneous, comprising only five RCTs and nine cohort studies with varied populations, settings, outcome definitions, and follow-up durations. Second, inter-rater agreement for screening was fair (Cohen's kappa = 0.330; percent agreement 95.8%), which falls within the range commonly reported for systematic review title/abstract screening under high exclusion prevalence (98.5% exclusion rate). The relatively low κ reflects the well-described κ paradox in highly imbalanced screening datasets rather than substantive disagreement on the studies that ultimately mattered. All 57 single-reviewer-include records were adjudicated by the primary reviewer in a pre-specified second-pass title/abstract review using PICO criteria documented in the PROSPERO protocol; the categorical exclusion reasons (first-attempt insertion success rather than post-insertion outcomes; midline or long-peripheral catheters rather than peripheral IVCs; single-arm designs; or unpublished protocols) were each within-PICO violations identifiable from the abstract. To guard against selection bias from this single-reviewer adjudication, we (a) cross-referenced our included set against four prior systematic reviews on this topic (Egan 2013;^4^ Stolz 2015;^5^ van Loon 2018;^6^ and Hilsden's BUSED 2018), all of whose included studies that met our PICO are present in our final 14-study set; (b) preserved an audit trail of all 53 second-pass exclusions with reason codes (Supplementary File: screening_consensus.md); and (c) advanced to full-text retrieval all 4 primary-reviewer-only includes (rather than rejecting them), so the asymmetric exclusion direction (M.W.-only excludes versus PI-only retained-for-FT) is itself transparent. The combination of categorical-reason documentation, cross-reference against prior reviews, and conservative full-text retrieval of all PI-only includes mitigates the residual risk of selection bias from second-pass adjudication. Third, four studies had major confounding by catheter type or selection, necessitating their exclusion from pooled analyses. Fourth, Saltarelli et al. (2015) was available only as a conference abstract with limited methodological detail. Fifth, Varghese et al. (2025) employed only a two-hour follow-up, which is insufficient to capture most post-insertion complications. Sixth, Leroux et al. (2023) was substantially underpowered due to COVID-19-related recruitment challenges. Seventh, formal assessment of publication bias was not possible because fewer than 10 studies contributed to any single meta-analysis. Finally, the overall certainty of evidence as assessed by the GRADE framework ranged from low to very low across all outcomes (Table 3),^12^ reflecting the predominance of observational studies, serious imprecision, and the limitations of the available RCTs.
+This review has several important limitations. First, the evidence base is small and heterogeneous, comprising only five RCTs and nine cohort studies with varied populations, settings, outcome definitions, and follow-up durations. Second, inter-rater agreement for title/abstract screening was fair (Cohen's kappa = 0.330; percent agreement 95.8%), reflecting the κ paradox under high exclusion prevalence^11^ rather than substantive disagreement. The 57 single-reviewer-include records were adjudicated by the primary reviewer in a pre-specified second-pass review against the PROSPERO PICO, with documented categorical exclusion reasons. Selection-bias risk was mitigated by cross-referencing against three prior USG-PIVC systematic reviews^4-6^ (no eligible studies missed) and an audit trail of all second-pass decisions (Supplementary File: screening_consensus.md). Third, four studies had major confounding by catheter type or selection, necessitating their exclusion from pooled analyses. Fourth, Saltarelli et al. (2015) was available only as a conference abstract with limited methodological detail. Fifth, Varghese et al. (2025) employed only a two-hour follow-up, which is insufficient to capture most post-insertion complications. Sixth, Leroux et al. (2023) was substantially underpowered due to COVID-19-related recruitment challenges. Seventh, formal assessment of publication bias was not possible because fewer than 10 studies contributed to any single meta-analysis. Finally, the overall certainty of evidence as assessed by the GRADE framework ranged from low to very low across all outcomes (Table 3),^12^ reflecting the predominance of observational studies, serious imprecision, and the limitations of the available RCTs.
 
 ### Clinical Implications
 
@@ -173,27 +173,41 @@ Based on current evidence, clinicians should continue to use USG as a valuable t
 
 ## CONCLUSIONS
 
-This systematic review and meta-analysis of 14 studies did not demonstrate a consistent post-insertion advantage of ultrasound-guided over landmark-guided PIVC placement across catheter failure, dwell time, infiltration, or extravasation; the current evidence base is too small and heterogeneous to support either firm benefit or firm equivalence claims, and a clinically meaningful effect in either direction cannot be excluded. The pooled catheter failure rate was not significantly different between groups (RR 1.23, 95% CI 0.99--1.51; p = 0.056). Dwell time results were heterogeneous (I² = 91.9%) and could not be pooled, with one study showing significant benefit and two showing no difference. In adult patients specifically, the pooled RR for catheter failure trended unfavourably for USG (RR 1.28, 95% CI 1.02--1.60; p = 0.03), though the subgroup interaction test was non-significant (p = 0.32) and this result is best considered hypothesis-generating given the small number of studies and low certainty of evidence. Extravasation data from two studies (Bridey et al., Favot et al.) were directionally consistent in suggesting a potential signal associated with USG-placed PIVCs, though this was not confirmed by a third study (Nishizawa et al.) and certainty is very low; prospective studies are needed before clinical conclusions can be drawn. Studies reporting strongly favourable USG results were confounded by systematic differences in catheter length and type, highlighting that catheter selection -- not the guidance modality -- may be the primary determinant of post-insertion catheter performance. The value of USG in PIVC placement lies in its ability to achieve initial venous access in difficult patients, not in improving post-insertion catheter longevity. Future adequately powered RCTs that control for catheter length, gauge, and material are essential to provide definitive evidence.
+This systematic review and meta-analysis of 14 studies did not demonstrate a consistent post-insertion advantage of ultrasound-guided over landmark-guided PIVC placement across catheter failure, dwell time, infiltration, or extravasation; the current evidence base is too small and heterogeneous to support either firm benefit or firm equivalence claims, and a clinically meaningful effect in either direction cannot be excluded. The pooled catheter failure rate was not significantly different between groups (RR 1.23, 95% CI 0.99--1.51; p = 0.056). Dwell time results were heterogeneous (I² = 91.9%) and could not be pooled, with one study showing significant benefit and two showing no difference. In adult patients specifically, the pooled RR for catheter failure trended unfavourably for USG (RR 1.28, 95% CI 1.02--1.60; p = 0.03), though the subgroup interaction test was non-significant (p = 0.32) and this result is best considered hypothesis-generating given the small number of studies and low certainty of evidence. Extravasation data from two studies (Bridey et al., Favot et al.) were directionally consistent in suggesting a potential signal associated with USG-placed PIVCs, though this was not confirmed by a third study (Nishizawa et al.) and certainty is very low; prospective studies are needed before clinical conclusions can be drawn. Studies reporting strongly favourable USG results were confounded by systematic differences in catheter length and type, highlighting that catheter selection -- not the guidance modality -- may be the primary determinant of post-insertion catheter performance. The current evidence more strongly supports the insertion-phase advantage of USG (well established in prior systematic reviews) than any consistent post-insertion advantage. Future adequately powered RCTs that control for catheter length, gauge, and material are essential to provide definitive evidence.
 
 ---
 
 ## REFERENCES
 
-1. Alexandrou E, Ray-Barruel G, Carr PJ, et al. Use of short peripheral intravenous catheters: characteristics, management, and outcomes worldwide. *J Hosp Med*. 2018;13(5). doi:10.12788/jhm.2937
-2. O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the prevention of intravascular catheter-related infections. *Am J Infect Control*. 2011;39(4 Suppl 1):S1-S34. doi:10.1016/j.ajic.2011.01.003
-3. Nickel B, Gorski L, Kleidon T, et al. Infusion Therapy Standards of Practice, 9th Edition. *J Infus Nurs*. 2024;47(1S Suppl 1):S1-S285. doi:10.1097/NAN.0000000000000532
-4. Egan G, Healy D, O'Neill H, Clarke-Moloney M, Grace PA, Walsh SR. Ultrasound guidance for difficult peripheral venous access: systematic review and meta-analysis. *Emerg Med J*. 2013;30(7):521-526. doi:10.1136/emermed-2012-201652
-5. Stolz LA, Stolz U, Howe C, Farrell IJ, Adhikari S. Ultrasound-guided peripheral venous access: a meta-analysis and systematic review. *J Vasc Access*. 2015;16(4):321-326. doi:10.5301/jva.5000346
-6. van Loon FHJ, Buise MP, Claassen JJF, Dierick-van Daele ATM, Bouwman ARA. Comparison of ultrasound guidance with palpation and direct visualisation for peripheral vein cannulation in adult patients: a systematic review and meta-analysis. *Br J Anaesth*. 2018;121(2):358-366. doi:10.1016/j.bja.2018.04.047
-7. Fields JM, Dean AJ, Todman RW, et al. The effect of vessel depth, diameter, and location on ultrasound-guided peripheral intravenous catheter longevity. *Am J Emerg Med*. 2012;30(7):1134-1140. doi:10.1016/j.ajem.2011.07.027
-8. Elia F, Ferrari G, Molino P, et al. Standard-length catheters vs long catheters in ultrasound-guided peripheral vein cannulation. *Am J Emerg Med*. 2012;30(5):712-716. doi:10.1016/j.ajem.2011.04.019
-9. van Loon FHJ, Korsten HHM, Dierick-van Daele ATM, Bouwman ARA. The impact of the catheter to vein ratio on peripheral intravenous cannulation success, a post-hoc analyses. *PLoS One*. 2021;16(5):e0252166. doi:10.1371/journal.pone.0252166
-10. Pandurangadu AV, Tucker J, Brackney AR, Bahl A. Ultrasound-guided intravenous catheter survival impacted by amount of catheter residing in the vein. *Emerg Med J*. 2018;35(9):550-555. doi:10.1136/emermed-2017-206803
-11. Byrt T, Bishop J, Carlin JB. Bias, prevalence and kappa. *J Clin Epidemiol*. 1993;46(5):423-429. doi:10.1016/0895-4356(93)90018-V
-12. Guyatt GH, Oxman AD, Vist GE, et al. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. *BMJ*. 2008;336(7650):924-926. doi:10.1136/bmj.39489.470347.AD
-13. Nishizawa T, Matsumoto T, Todaka T, Sasano M, Kitagawa H, Shimabuku A. Nurse-Performed Ultrasound-Guided Technique for Difficult Peripheral Intravenous Access in Critically Ill Patients: A Randomized Controlled Trial. *J Assoc Vasc Access*. 2020;25(2):34-39. doi:10.2309/j.java.2020.002.001
-14. Desai K, Vinograd AM, Abbadessa MKF, Chen AE. Longevity and Complication Rates of Ultrasound Guided Versus Traditional Peripheral Intravenous Catheters in a Pediatric Emergency Department. *J Assoc Vasc Access*. 2018;23(3):149-154. doi:10.1016/j.java.2018.06.002
-15. Hartung J, Knapp G. On tests of the overall treatment effect in meta-analysis with normally distributed responses. *Stat Med*. 2001;20(12):1771-1782. doi:10.1002/sim.791
+1\. Alexandrou E, Ray-Barruel G, Carr PJ, et al. Use of short peripheral intravenous catheters: characteristics, management, and outcomes worldwide. *J Hosp Med*. 2018;13(5). doi:10.12788/jhm.2937
+
+2\. O'Grady NP, Alexander M, Burns LA, et al. Guidelines for the prevention of intravascular catheter-related infections. *Am J Infect Control*. 2011;39(4 Suppl 1):S1-S34. doi:10.1016/j.ajic.2011.01.003
+
+3\. Nickel B, Gorski L, Kleidon T, et al. Infusion Therapy Standards of Practice, 9th Edition. *J Infus Nurs*. 2024;47(1S Suppl 1):S1-S285. doi:10.1097/NAN.0000000000000532
+
+4\. Egan G, Healy D, O'Neill H, Clarke-Moloney M, Grace PA, Walsh SR. Ultrasound guidance for difficult peripheral venous access: systematic review and meta-analysis. *Emerg Med J*. 2013;30(7):521-526. doi:10.1136/emermed-2012-201652
+
+5\. Stolz LA, Stolz U, Howe C, Farrell IJ, Adhikari S. Ultrasound-guided peripheral venous access: a meta-analysis and systematic review. *J Vasc Access*. 2015;16(4):321-326. doi:10.5301/jva.5000346
+
+6\. van Loon FHJ, Buise MP, Claassen JJF, Dierick-van Daele ATM, Bouwman ARA. Comparison of ultrasound guidance with palpation and direct visualisation for peripheral vein cannulation in adult patients: a systematic review and meta-analysis. *Br J Anaesth*. 2018;121(2):358-366. doi:10.1016/j.bja.2018.04.047
+
+7\. Fields JM, Dean AJ, Todman RW, et al. The effect of vessel depth, diameter, and location on ultrasound-guided peripheral intravenous catheter longevity. *Am J Emerg Med*. 2012;30(7):1134-1140. doi:10.1016/j.ajem.2011.07.027
+
+8\. Elia F, Ferrari G, Molino P, et al. Standard-length catheters vs long catheters in ultrasound-guided peripheral vein cannulation. *Am J Emerg Med*. 2012;30(5):712-716. doi:10.1016/j.ajem.2011.04.019
+
+9\. van Loon FHJ, Korsten HHM, Dierick-van Daele ATM, Bouwman ARA. The impact of the catheter to vein ratio on peripheral intravenous cannulation success, a post-hoc analyses. *PLoS One*. 2021;16(5):e0252166. doi:10.1371/journal.pone.0252166
+
+10\. Pandurangadu AV, Tucker J, Brackney AR, Bahl A. Ultrasound-guided intravenous catheter survival impacted by amount of catheter residing in the vein. *Emerg Med J*. 2018;35(9):550-555. doi:10.1136/emermed-2017-206803
+
+11\. Byrt T, Bishop J, Carlin JB. Bias, prevalence and kappa. *J Clin Epidemiol*. 1993;46(5):423-429. doi:10.1016/0895-4356(93)90018-V
+
+12\. Guyatt GH, Oxman AD, Vist GE, et al. GRADE: an emerging consensus on rating quality of evidence and strength of recommendations. *BMJ*. 2008;336(7650):924-926. doi:10.1136/bmj.39489.470347.AD
+
+13\. Nishizawa T, Matsumoto T, Todaka T, Sasano M, Kitagawa H, Shimabuku A. Nurse-Performed Ultrasound-Guided Technique for Difficult Peripheral Intravenous Access in Critically Ill Patients: A Randomized Controlled Trial. *J Assoc Vasc Access*. 2020;25(2):34-39. doi:10.2309/j.java.2020.002.001
+
+14\. Desai K, Vinograd AM, Abbadessa MKF, Chen AE. Longevity and Complication Rates of Ultrasound Guided Versus Traditional Peripheral Intravenous Catheters in a Pediatric Emergency Department. *J Assoc Vasc Access*. 2018;23(3):149-154. doi:10.1016/j.java.2018.06.002
+
+15\. Hartung J, Knapp G. On tests of the overall treatment effect in meta-analysis with normally distributed responses. *Stat Med*. 2001;20(12):1771-1782. doi:10.1002/sim.791
 
 ---
 
@@ -264,92 +278,20 @@ GRADE certainty ratings: ⊕⊕⊕⊕ High; ⊕⊕⊕◯ Moderate; ⊕⊕◯◯ 
 
 ### Figure 1. PRISMA 2020 Flow Diagram
 
-```
- ┌─────────────────────────────────────────────────────────────────┐
- │                        IDENTIFICATION                          │
- ├─────────────────────────────────────────────────────────────────┤
- │                                                                │
- │   ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐     │
- │   │ PubMed   │  │ Embase   │  │ Cochrane │  │ CINAHL   │     │
- │   │ n = 530  │  │ n = 984  │  │ CENTRAL  │  │ n = 50   │     │
- │   │          │  │          │  │ n = 68   │  │          │     │
- │   └────┬─────┘  └────┬─────┘  └────┬─────┘  └────┬─────┘     │
- │        └──────────────┴─────────────┴─────────────┘           │
- │                          │                                     │
- │              Total records identified                          │
- │                    n = 1,632                                   │
- └────────────────────────┬────────────────────────────────────────┘
-                          │
-                          ▼
-              ┌───────────────────────┐
-              │ Duplicates removed    │
-              │       n = 273         │
-              └───────────┬───────────┘
-                          │
-                          ▼
- ┌─────────────────────────────────────────────────────────────────┐
- │                         SCREENING                              │
- ├─────────────────────────────────────────────────────────────────┤
- │                                                                │
- │   ┌──────────────────────────┐   ┌──────────────────────────┐ │
- │   │ Records screened         │──▶│ Records excluded         │ │
- │   │ (title & abstract)       │   │       n = 1,342          │ │
- │   │       n = 1,359          │   │                          │ │
- │   └────────────┬─────────────┘   └──────────────────────────┘ │
- │                │                                               │
- └────────────────┼───────────────────────────────────────────────┘
-                  │
-                  ▼
- ┌─────────────────────────────────────────────────────────────────┐
- │                     FULL-TEXT REVIEW                            │
- ├─────────────────────────────────────────────────────────────────┤
- │                                                                │
- │   ┌──────────────────────────┐   ┌──────────────────────────┐ │
- │   │ Reports sought for       │──▶│ Reports not retrieved    │ │
- │   │ retrieval                │   │       n = 0              │ │
- │   │       n = 17             │   │                          │ │
- │   └────────────┬─────────────┘   │                          │ │
- │                │                 └──────────────────────────┘ │
- │                ▼                                               │
- │   ┌──────────────────────────┐   ┌──────────────────────────┐ │
- │   │ Reports assessed for     │──▶│ Reports excluded         │ │
- │   │ eligibility              │   │       n = 6              │ │
- │   │       n = 17             │   │                          │ │
- │   │                          │   │ - Single-arm, no         │ │
- │   │                          │   │   comparator: 1 (Malik) │ │
- │   │                          │   │ - Portuguese language:   │ │
- │   │                          │   │   1 (Avelar)            │ │
- │   └────────────┬─────────────┘   │ - Not published: 2      │ │
- │                │                 │   (oncology nurses,      │ │
- │                │                 │    ICU nurses DIVA)      │ │
- │                │                 │ - Protocol only, same    │ │
- │                │                 │   trial: 1 (Kleidon      │ │
- │                │                 │   BJN protocol)          │ │
- │                │                 │ - Duplicate report: 1    │ │
- │                │                 │   (Kleidon J Vasc        │ │
- │                │                 │    Access)               │ │
- │                │                 └──────────────────────────┘ │
- └────────────────┼───────────────────────────────────────────────┘
-                  │
-                  ▼
- ┌─────────────────────────────────────────────────────────────────┐
- │                         INCLUDED                               │
- ├─────────────────────────────────────────────────────────────────┤
- │                                                                │
- │   ┌──────────────────────────────────────────────────────────┐ │
- │   │ Studies included in qualitative synthesis                │ │
- │   │                    n = 14                                │ │
- │   │ (5 RCTs, 9 cohort studies)                              │ │
- │   └────────────────────────┬─────────────────────────────────┘ │
- │                            │                                   │
- │                            ▼                                   │
- │   ┌──────────────────────────────────────────────────────────┐ │
- │   │ Studies included in quantitative synthesis               │ │
- │   │ (meta-analysis): varies by outcome (max k = 4)          │ │
- │   └──────────────────────────────────────────────────────────┘ │
- │                                                                │
- └─────────────────────────────────────────────────────────────────┘
-```
+*Full diagram is provided as a separate file (Figure1_PRISMA_flow.pdf in the submission package). Numerical summary:*
+
+| Stage | n |
+|---|---|
+| Records identified (PubMed 530 + Embase 984 + Cochrane CENTRAL 68 + CINAHL 50) | 1,632 |
+| Duplicates removed | 273 |
+| Records screened (title/abstract) | 1,359 |
+| Records excluded at T/A (1,287 both-reviewer + 53 single-reviewer-include adjudicated EXC at second-pass) | 1,340 |
+| Reports sought for full-text retrieval | 19 |
+| Reports not retrieved | 0 |
+| Reports assessed for eligibility | 19 |
+| Reports excluded at full-text (1 single-arm absent comparator [Malik]; 2 Portuguese language [Avelar reports]; 1 unpublished [oncology-nurses report]; 1 duplicate/protocol of same EPIC trial [Kleidon BJN 2023 + Kleidon JVA 2022]) | 5 |
+| **Studies included in qualitative synthesis** (5 RCTs, 9 cohort studies) | **14** |
+| Studies included in quantitative synthesis (meta-analysis; varies by outcome) | max k = 4 |
 
 ---
 
@@ -371,4 +313,4 @@ GRADE certainty ratings: ⊕⊕⊕⊕ High; ⊕⊕⊕◯ Moderate; ⊕⊕◯◯ 
 
 *Conflicts of interest: None declared.*
 
-*Use of Artificial Intelligence (per ICMJE 2024 / Springer-Nature policy): During preparation of this manuscript, the authors used ChatGPT (OpenAI) and Gemini (Google) as drafting and language-editing assistants, and as adjudication aids for cross-checking the methodology and findings. AI tools were also used to assist with code review of the analytic R script and to surface potential reviewer-style critiques of design choices. Specifically, AI was used for: (1) suggesting language refinements and identifying ambiguities in early manuscript drafts; (2) cross-checking mathematical and statistical reasoning; (3) identifying methodological inconsistencies between Methods, Results, and analysis outputs; (4) preparing language-translated versions of search strings. AI was NOT used to generate primary scientific content, draft conclusions, or interpret clinical findings. All AI-generated suggestions were reviewed, verified, and edited by the human authors, who take full responsibility for the accuracy and integrity of all content presented in this manuscript. No AI tool is listed as an author. Screening and data extraction were performed by human reviewers (PI Chia-Ching Chen and second reviewer Masuni Wang); a separate AI-assisted second-pass reading was used as an internal sanity-check on extraction consistency, and any discrepancies were adjudicated by the human reviewers.*
+*Use of Artificial Intelligence: AI assistants (ChatGPT, Gemini) were used for language editing and to cross-check statistical reasoning during manuscript preparation. AI was not used to generate primary scientific content, draft conclusions, or interpret clinical findings. All authors reviewed and verified all content and take full responsibility for accuracy and integrity. No AI tool is listed as an author. A detailed AI use disclosure (ICMJE 2024 compliant) is provided in the cover letter.*
