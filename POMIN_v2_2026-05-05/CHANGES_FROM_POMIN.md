@@ -71,3 +71,25 @@ Author line: `Tai-An Lee, MD¹,†, Yu-Ling Wang²,†, Jen-Tao Wang³, Po-Ming 
 - Panel C: Combined overall-risk distribution bar (RoB 2 + NOS side-by-side)
 
 Optional addition: cite as "**Figure 7**" inline after Table 2 RoB description in the manuscript Results.
+
+---
+
+## Round 3-6 patches (2026-05-06)
+
+| Round | Issue source | Fix | Verified by |
+|---|---|---|---|
+| **R3** | Codex Round 2 audit (3 HIGH residuals) | Affiliation superscript split (3 lines); Refosco 5/9 in body; 6 unbracketed citations bracketed; S1 GRADE residual; AI disclosure unified; I² standardization | Codex Round 3 audit |
+| **R4** | Codex Round 3 audit (2 cite + 1 fragment) | `prevalence11`→`[11]`; `systematic reviews4-6`→`[4-6]`; `adjusted HRV.`→`adjusted HR.` (POMIN-introduced bug, restored to original) | Codex Round 4 audit |
+| **R5** | Codex Round 4 audit (3 cites in Discussion) | `tissue.10`→`[10]`; `vein.10`→`[10]`; `failure.7`→`[7]` | Codex Round 5 audit + manual sweep |
+| **R6** | Codex Round 5 audit (refs 13/14 never bracket-cited) | Added "(Desai et al., 2018 [14]; Nishizawa et al., 2020 [13])" at first mention | Codex Round 6 audit |
+
+## Final Codex verdict
+
+🟢 **SUBMISSION READY** — all 15 references properly bracket-cited; no remaining unbracketed inline citations; no stranded text fragments; all numerical values internally consistent; affiliations correctly superscripted; AI disclosure harmonized; Refosco NOS = 5/9 consistent across Table 2 / body text / Figure 7.
+
+## Patch scripts (full audit trail)
+
+- R1 + bonus: `scripts/apply_pomin_v2_patches.py` (H1-H5 + M1, M2)
+- R2: `scripts/apply_pomin_v2_patches_round2.py` (M3, M5, M6, M7)
+- R3: `scripts/apply_pomin_v2_patches_round3.py` (HIGH residuals: superscript / Refosco / cites / S1 / AI / I²)
+- R4-R6: applied inline (small fixes, no separate script)
