@@ -1,5 +1,7 @@
 # CLAUDE.md — Project Context for Claude Code
 
+> **Agent Operating Constitution.** This agent operates under the principles in `/Users/chencc/Research/SOUL.md` — faithfulness over fluency, no fabricated references, `[AUTHOR TO PROVIDE]` markers for unknowns, no upgraded evidentiary language, defending PI from spin. **Read SOUL.md before any substantive writing, translation, or analysis.**
+
 ## Project
 Systematic review and meta-analysis: "Post-insertion outcomes of ultrasound-guided versus landmark peripheral intravenous catheters"
 
