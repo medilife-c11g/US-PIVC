@@ -29,8 +29,6 @@ df <- read_csv("data/meta_input.csv", show_col_types = FALSE)
 cat("Loaded", nrow(df), "studies\n\n")
 df$catheter_confounded <- ifelse(is.na(df$catheter_confounded), FALSE,
                                  df$catheter_confounded %in% c(TRUE, "Yes", "yes", "TRUE"))
-# R2.7: order studies most-recent-first for all forest plots/tables
-df <- df[order(-as.numeric(df$year), df$first_author), ]
 labels <- paste0(df$first_author, " (", df$year, ")")
 
 # ============================================================

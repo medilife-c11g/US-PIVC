@@ -70,7 +70,7 @@ draw_box(40, 48, 32, 7,
 draw_arrow(56, 48, 66, 48)
 
 draw_box(80, 48, 26, 14,
-         "Reports excluded (n = 4)\n\nSingle-arm, no comparator:\n  1 (Malik)\nNon-English companion report:\n  1 (Avelar 2013 -\n   companion of included\n   Avelar 2015)\nUnpublished:\n  1 (oncology nurses)\nOverlapping report of\nincluded trial:\n  1 (Kleidon BJN 2023\n   EPIC protocol)",
+         "Reports excluded (n = 5)\n\nSingle-arm, no comparator:\n  1 (Malik)\nPortuguese language:\n  2 (Avelar reports)\nUnpublished:\n  1 (oncology nurses)\nDuplicate/protocol of\nsame EPIC trial:\n  1 (Kleidon BJN 2023 +\n     Kleidon JVA 2022)",
          fill = "#FDE8E8", border = "#CB181D", cex = 0.52)
 
 # ===== INCLUDED =====
@@ -79,7 +79,7 @@ draw_arrow(40, 44.5, 40, 38)
 text(5, 39, "INCLUDED", adj = 0, font = 2, cex = 0.9, col = "#555555")
 
 draw_box(40, 34, 35, 7,
-         "Studies included in\nqualitative synthesis\n(n = 15)\n6 RCTs, 9 cohort studies\n(78,591 participants)",
+         "Studies included in\nqualitative synthesis\n(n = 14)\n5 RCTs, 9 cohort studies\n(78,209 participants)",
          fill = "#C7E9C0", border = "#238B45", cex = 0.65)
 
 draw_arrow(40, 30.5, 40, 26)
@@ -90,7 +90,7 @@ draw_box(40, 23, 35, 5,
 
 # ===== DETAIL BOX =====
 draw_box(40, 14, 55, 10,
-         "Meta-analysis outcomes:\n\nCatheter failure: k = 4 (RR 1.23, 95% CI 1.00-1.51)\nDwell time: k = 3 (I\u00b2 = 91.9%, not pooled)\nInfiltration: k = 3 (RR 1.30, 95% CI 0.82-2.05)\nExtravasation: k = 3 (I\u00b2 = 95.7%, not pooled)\nHR-based failure: k = 2 (HR 1.02, 95% CI 0.75-1.38)",
+         "Meta-analysis outcomes:\n\nCatheter failure: k = 4 (RR 1.23, 95% CI 1.00-1.51)\nDwell time: k = 3 (I\u00b2 = 91.9%, not pooled)\nInfiltration: k = 2 (RR 0.68, 95% CI 0.12-3.83)\nExtravasation: k = 3 (I\u00b2 = 95.7%, not pooled)\nHR-based failure: k = 2 (HR 1.02, 95% CI 0.75-1.38)",
          fill = "#F5F5F5", border = "#999999", cex = 0.58)
 
 dev.off()

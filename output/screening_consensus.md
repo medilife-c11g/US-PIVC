@@ -95,6 +95,8 @@ Studies predominantly focused on:
 
 *[2026-04-28 revision: re-stated to align with manuscript Methods + PRISMA flow diagram. Earlier draft of this file showed "FT excluded = 6" treating Kleidon BJN and Kleidon JVA as separate exclusions; revised to "5 FT excluded" treating the two overlapping Kleidon reports as a single EPIC-trial-overlap exclusion since they are not independent studies. PRISMA tally now consistent across manuscript line 50, line 78, Limitations line 166, and `prisma_flowchart.pdf`.]*
 
+*[2026-06-03 revision (Ultrasound Journal R2.5 response): the Avelar trial is now INCLUDED via its English 2015 report (Avelar AF et al., J Infus Nurs 2015;38(5):320–327; rayyan-486160498, NCT00930254), which was a both-reviewer include wrongly dropped at full-text as "Portuguese." Its 2013 Portuguese record (rayyan-486160522) remains excluded as a non-English companion. Corrected full-text tally: **19 reports assessed − 4 excluded = 15 included** (6 RCTs, 9 cohorts; 78,591 participants). The 4 full-text exclusions are Malik (single-arm), Avelar 2013 Portuguese companion, oncology-nurses NCT07208175 (unpublished), and Kleidon BJN 2023 EPIC protocol (overlapping report). The Kleidon J Vasc Access 2022 abstract (rayyan-486160691) and the ICU-nurses registration NCT03745209 (rayyan-486160677) are single-reviewer (masuni-only) title/abstract includes adjudicated out at the T/A stage — part of the 1,340 T/A exclusions, NOT full-text exclusions; the supplement excluded-studies list and PRISMA flow diagram have been corrected accordingly. The "14 included / FT excluded = 5" figures above are the pre-R2.5 values, retained for the historical record.]*
+
 ## Final 14 Included Studies
 
 1. Kleidon TM — EPIC RCT (JAMA Pediatrics 2025)

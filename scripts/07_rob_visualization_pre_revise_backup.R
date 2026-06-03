@@ -19,15 +19,14 @@ out_pdf <- "/Users/chencc/Research/US-PIVC/POMIN_v2_2026-05-05/figures/Figure7_R
 out_png <- "/Users/chencc/Research/US-PIVC/POMIN_v2_2026-05-05/figures/Figure7_RoB_Summary.png"
 dir.create(dirname(out_pdf), recursive = TRUE, showWarnings = FALSE)
 
-# ---- RoB 2 for the 6 RCTs (per output/risk_of_bias.md) ---------------------
+# ---- RoB 2 for the 5 RCTs (per output/risk_of_bias.md) ---------------------
 rob2 <- tibble::tribble(
   ~Study,            ~D1,            ~D2,             ~D3,            ~D4,             ~D5,             ~Overall,
   "Kleidon 2025",    "Low",          "Some concerns", "Low",          "Low",           "Low",           "Some concerns",
   "Bridey 2018",     "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns",
   "Varghese 2025",   "Low",          "Low",           "Low",          "Some concerns", "Some concerns", "Some concerns",
   "Leroux 2023",     "Low",          "Some concerns", "High",         "Some concerns", "Low",           "High",
-  "Nishizawa 2020",  "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns",
-  "Avelar 2015",     "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns"
+  "Nishizawa 2020",  "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns"
 )
 
 # robvis expects column header "Study"/"D1"/.../"Overall" for tool="ROB2"
@@ -120,14 +119,14 @@ overall_bar <- ggplot(overall_combined, aes(x = Tool, fill = Overall)) +
   )
 
 # ---- Compose 3-panel figure (A: RoB2 traffic, B: NOS heatmap, C: combined bar) ----
-top <- rob2_traffic + ggtitle("A. Cochrane RoB 2 traffic-light plot (RCTs, n = 6)") +
+top <- rob2_traffic + ggtitle("A. Cochrane RoB 2 traffic-light plot (RCTs, n = 5)") +
   theme(plot.title = element_text(face = "bold", size = 11))
 
 combined <- (top / (nos_plot | overall_bar)) +
   plot_layout(heights = c(1.2, 1.0)) +
   plot_annotation(
-    title    = "Figure 7. Risk-of-bias and methodological-quality summary across all 15 included studies",
-    subtitle = "Cochrane Risk of Bias 2 (6 RCTs) and Newcastle-Ottawa Scale (9 cohort studies); see Table 2 for details",
+    title    = "Figure 7. Risk-of-bias and methodological-quality summary across all 14 included studies",
+    subtitle = "Cochrane Risk of Bias 2 (5 RCTs) and Newcastle-Ottawa Scale (9 cohort studies); see Table 2 for details",
     caption  = "Authoritative ratings: output/risk_of_bias.md (audited 2026-04-28). Cochrane RoB colour palette.",
     theme    = theme(plot.title = element_text(face = "bold", size = 13),
                      plot.subtitle = element_text(size = 10, colour = "grey25"),
