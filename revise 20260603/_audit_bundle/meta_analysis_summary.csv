@@ -1,0 +1,5 @@
+Outcome,k,Estimate_95CI,I2,p_value,Poolable
+Catheter Failure (RR),4,"1.23 [1.00, 1.51]",0%,0.0556,Yes
+Dwell Time (MD),3,Not pooled (exploratory only),91.9%,—,No
+Infiltration (RR),3,"1.30 [0.82, 2.05]",48.8%,0.264,Yes
+Extravasation (RR),3,Not pooled (exploratory only),95.7%,—,No

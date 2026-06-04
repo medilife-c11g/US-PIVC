@@ -1,0 +1,22 @@
+
+[TABLE 0]
+Table 2. Risk of Bias Assessment
+Part A: Cochrane RoB 2 for Randomized Controlled Trials
+Study | D1: Randomization | D2: Deviations | D3: Missing data | D4: Measurement | D5: Reporting | Overall
+Kleidon 2025 [12] | Low | Some concerns | Low | Some concerns
+Varghese 2025 [17] | Low | Some concerns
+Leroux 2023 [18] | Low | Some concerns | High | Some concerns | Low | High risk
+Nishizawa 2020 [15] | Low | Some concerns | Low | Some concerns | Low | Some concerns
+Bridey 2018 [16] | Low | Some concerns | Low | Some concerns | Low | Some concerns
+Avelar 2015 [5] | Low | Some concerns | Low | Some concerns | Low | Some concerns
+Part B: Newcastle-Ottawa Scale for Cohort Studies
+Study | Selection (max 4) | Comparability (max 2) | Outcome (max 3) | Total | Key Concern
+Refosco 2025 [24] | 3 | 1 | 2 | 6/9 | Catheter type confounding
+Dachepally 2023 [22] | 3 | 1 | 2 | 6/9 | Catheter length confounding
+Feinsmith 2023 [19] | 3 | 1 | 2 | 6/9 | Selection bias (DIVA), missing IFR data
+Cottrell 2021 [21] | 3 | 1 | 2 | 6/9 | Retrospective; different difficulty levels
+Favot 2019 [25] | 2 | 1 | 2 | 5/9 | Ecological comparison, different data sources
+Shokoohi 2019 [20] | 4 | 2 | 3 | 9/9 | (Highest quality)
+Desai 2018 [14] | 2 | 1 | 2 | 5/9 | USG group 55% DIVA hx vs TPIV 7.2%; longer catheters
+Paladini 2018 [23] | 3 | 1 | 2 | 6/9 | Catheter type confounding
+Saltarelli 2015 [26] | 3 | 1 | 5/9 | Conference abstract only

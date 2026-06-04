@@ -1,0 +1,10 @@
+Table 3. GRADE Summary of Findings — post-insertion outcomes of ultrasound-guided versus landmark peripheral intravenous catheters
+RR > 1 indicates a higher event rate (worse outcome) with ultrasound guidance. GRADE certainty: ⊕⊕⊕⊕ High, ⊕⊕⊕◯ Moderate, ⊕⊕◯◯ Low, ⊕◯◯◯ Very low. Certainty was rated per outcome using the GRADE approach (risk of bias, inconsistency, indirectness, imprecision, publication bias); observational cohorts started at low certainty. Publication bias could not be formally assessed (fewer than 10 studies per outcome).
+
+[TABLE 0]
+Outcome | No. of studies (design) | Participants | Effect (USG vs landmark) | Certainty (GRADE) | Reasons for downgrading
+Catheter failure | 4 (2 RCTs, 2 cohorts) | 3,404 | RR 1.23 (95% CI 1.00–1.51) | ⊕⊕◯◯ Low | Risk of bias; imprecision
+Dwell time | 3 (2 RCTs, 1 cohort) | 929 | Not pooled (I² = 91.9%); individual estimates conflicting | ⊕◯◯◯ Very low | Inconsistency (extreme); risk of bias; imprecision
+Infiltration | 3 (2 RCTs, 1 cohort) | 3,117 | RR 1.30 (95% CI 0.82–2.05) | ⊕◯◯◯ Very low | Risk of bias (incl. differential ascertainment in 1 RCT); imprecision
+Extravasation | 3 (2 RCTs, 1 cohort) | 29,682 | Not pooled (I² = 95.7%); directionally inconsistent | ⊕◯◯◯ Very low | Inconsistency (extreme); risk of bias; indirectness
+Time-to-event–adjacent | 2 (2 cohorts) | 43,800 | Not pooled — Feinsmith adjusted HR 0.91 (0.87–0.95); Shokoohi 72-h RR 1.26 (0.88–1.80) | ⊕◯◯◯ Very low | Different effect measures (HR vs RR); risk of bias; conflicting directions; imprecision

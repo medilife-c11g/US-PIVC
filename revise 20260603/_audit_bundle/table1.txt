@@ -1,0 +1,22 @@
+
+[TABLE 0]
+Table 1. Characteristics of Included Studies
+Study | Year | Country | Design | Setting | Population | N (USG/LM) | DIVA 
+Only | Catheter Confounded | Follow-up | Primary Post-insertion Outcome | Key Finding
+Kleidon TM [12] | 2025 | Australia | RCT | Quaternary children’s hospital | Pediatric 0-18y | 84/80 | No | Until removal | PIVC failure, dwell time | Failure 23.8% vs 25.0% (NS); Dwell 47.1 vs 47.7h (NS)
+Refosco M [24] | 2025 | Italy | Retrospective cohort | Pediatric ED | Pediatric 0-18y | 135/135 | No | Yes* | Until removal | Dwell time, complications | Dwell 5.3±4.0 vs 2.5±1.8 days (p<0.001); Complications 34% vs 70%
+Varghese S [17] | 2025 | India | RCT | Tertiary pediatric ED | Pediatric 1mo-17y | 45/45 | Mixed | No | 2 hours | Catheter patency, complications | Patency 97.78% vs 84.44% (p=0.03)
+Dachepally R [22] | 2023 | USA | Retrospective cohort | Pediatric ICU | Pediatric ICU (DIVA) | 99/88 | Yes | Yes* | Until removal | Dwell time, IV failure | Median 219 vs 108h (p<0.001); HR 2.20 (1.45-3.34)
+Feinsmith SE [19] | 2023 | USA | Retrospective cohort | Tertiary academic center | Adult (DIVA) | 7,972/35,498 | Yes | No | 30 days | KM survival, HR | Adjusted HR 0.91 (0.87-0.95) favoring USG
+Leroux S [18] | 2023 | USA | RCT | Tertiary ED | Adult ED | 106/116 | No | 48-96h | Postinsertion failure, utility time | Failure 11.3% vs 9.5% (NS); Utility 23.5 vs 24.7h (NS)
+Cottrell JT [21] | 2021 | USA | Retrospective cohort | Pediatric hospital | Pediatric (all) | 256/287 | No | Until removal | Dwell time | Mean 96.1 vs 59.4h (p<0.001)
+Nishizawa T [15] | 2020 | Japan | RCT | Mixed ICU | Adult ICU (DIVA) | 30/30 | Yes | No | Until removal | First-attempt success, extravasation | First-attempt 70% vs 40% (p<0.05); Extravasation 13.6% vs 28.5% (NS)
+Favot M [25] | 2019 | USA | Retrospective cohort | Tertiary ED | Adult ED (CT contrast) | 291/29,217 | No | 33 months | Contrast extravasation | 4.1% vs 0.21% (RR 19.4, 10.6-35.6)
+Shokoohi H [20] | 2019 | USA | Prospective cohort | Tertiary ED | Adult ED (all access) | 182/148 | No | 72 hours | Premature removal | 27% vs 21% (RR 1.26, 0.88-1.80, NS)
+Bridey C [16] | 2018 | France | RCT | Tertiary ICU | Adult ICU (DIVA) | 57/57 | Yes | No | Max 3 days | Catheter lifespan, extravasation | Lifespan 3 vs 3 days (NS); Extravasation 34% vs 18% (p=0.094)
+Desai K [14] | 2018 | USA | Retrospective cohort | Pediatric ED | 160/363 | No | Yes* | Until removal | Dwell time, complications | KM median 143 vs 89h (p<0.001); Complications 34% vs 32% (NS)
+Paladini A [23] | 2018 | Italy | Prospective cohort | Pediatric ED | Pediatric ED (DIVA) >10y | 20/20 | Yes | Yes* | Until removal | Dwell time, complications | Dwell 9.2±6.0 vs 3.2±2.1 days (p<0.0001)
+Avelar AF [5] | 2015 | Brazil | RCT | Pediatric surgical unit | Pediatric (12 d–17 y) | 188/194 | No | To catheter removal | Infiltration, phlebitis | Higher infiltration with USG (34/161 vs 23/178; P=.025); phlebitis NS (2/161 vs 7/178); identical 19-mm catheters both arms
+Saltarelli NA [26] | 2015 | USA | Retrospective cohort | Tertiary ED | Adult ED (DIVA) | 885/1,803 | Yes | No | Hospital stay | Infiltration | 7.6% vs 5.9% (OR 1.31, 0.92-1.88, NS)
+*USG group used systematically longer catheters than landmark group; results confounded by catheter length/type.
+Avelar 2015 randomized 382 venipunctures (188 ultrasound-guided / 194 landmark) in 335 children; post-insertion complications were analyzed among the 339 catheters successfully placed (161 ultrasound-guided / 178 landmark). The 188/194 venipuncture counts are shown here and in the participant total; the 161/178 catheter counts are the denominators used in the infiltration meta-analysis.

@@ -1,0 +1,18 @@
+Supplementary Material S4: Leave-One-Out Sensitivity Analysis for the Catheter-Failure Outcome
+Leave-one-out (LOO) random-effects sensitivity analysis was performed on the four studies contributing to the pooled catheter-failure estimate (DerSimonian–Laird τ², log-RR scale). Each row reports the pooled risk ratio (RR) and 95% confidence interval (CI) when the corresponding single study is removed from the model. The full-model pooled estimate (all four studies) was RR 1.225 (95% CI 0.995–1.508; p = 0.056; I² = 0.0%).
+Table S4. 
+Leave-one-out (LOO) pooled risk ratios for the catheter-failure outcome (k = 4).
+Footnotes:
+CI, confidence interval; I², between-study heterogeneity statistic; LOO, leave-one-out; RR, risk ratio.
+Model: DerSimonian–Laird random-effects on log(RR); single-study removal.
+p-values are two-sided Wald-type tests on the pooled log-RR.
+Saltarelli (2015) carried 49.8% of the full-model weight; removing it attenuated the pooled estimate to RR 1.18 (95% CI 0.88–1.58, p = 0.28), indicating that the borderline catheter-failure signal depends substantially on this single largest study.
+All four contributing studies (Kleidon 2025, Shokoohi 2019, Leroux 2023, Saltarelli 2015) are reported in Table 1 of the main manuscript and in the PRISMA flow diagram.
+Full R analysis script: scripts/04_meta_analysis.R; underlying data: output/SupTable_LOO_catheter_failure.csv.
+
+[TABLE 0]
+Study excluded | Weight in full model (%) | Pooled RR [95% CI] | p-value | I² (%)
+Kleidon (2025) | 14.9% | 1.28 [1.02, 1.60] | 0.0316 | 0.0%
+Shokoohi (2019) | 28.1% | 1.19 [0.93, 1.52] | 0.159 | 0.0%
+Leroux (2023) | 7.2% | 1.23 [0.99, 1.52] | 0.0626 | 0.0%
+Saltarelli (2015) | 49.8% | 1.18 [0.88, 1.58] | 0.277 | 0.0%

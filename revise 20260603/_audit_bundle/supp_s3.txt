@@ -1,0 +1,22 @@
+Supplementary Material S3: List of Studies Excluded at Full-Text Stage with Reasons
+Studies excluded after full-text review (n = 4)
+Note: Two records initially flagged by a single reviewer — the ICU-nurses trial registration (ClinicalTrials.gov NCT03745209) and the Kleidon et al. conference abstract (Journal of Vascular Access, 2022, an overlapping report of the EPIC trial) — were adjudicated out at the title/abstract screening stage and are therefore counted among the title/abstract exclusions (within the 1,340), not the full-text exclusions.
+Full-text articles retrieved and included (previously not retrieved)
+Full-text articles retrieved after initial search (subsequently included)
+
+[TABLE 0]
+# | Study | Reason for Exclusion | Detail
+1 | Malik A et al. (2023) “Outcomes of Ultrasound Guided Peripheral Intravenous Catheters Placed in the Emergency Department and Factors Associated with Survival.” Open Access Emergency Medicine. | Single-arm study, no comparator | Descriptive study of 388 USIV placements only; no landmark/palpation comparison group. Does not meet inclusion criterion #1.
+2 | Avelar AF et al. (2013) “Assertiveness and dwell times with USG in children.” | Non-English companion report | Portuguese-language companion report of the same trial (NCT00930254) now included via its English 2015 report (Avelar 2015 [5]); excluded only as a non-English duplicate report, handled identically to the duplicate Kleidon/EPIC reports below.
+3 | Unpublished manuscript — “Effectiveness of Ultrasound-Guided Versus Traditional IV Insertion by Oncology Nurses in Adult Population Receiving Systemic Anti-cancer Therapy” | Not published | Manuscript not published at time of search.
+4 | Kleidon TM et al. (2023) “Ultrasound-guided PIVC insertion: a randomised controlled trial protocol.” British Journal of Nursing. | Protocol only, no results | Protocol paper for the EPIC trial; same trial as Kleidon 2025 (JAMA Pediatrics). No post-insertion outcome data reported.
+
+[TABLE 1]
+# | Study | Rayyan ID | Status
+1 | Refosco M et al. (2024) — USG deep veins vs blind superficial veins in children 0-18y | 486160202 | Retrieved and included (confounded by catheter type)
+2 | Cottrell JT et al. (2021) — USG increases catheter dwell time in children | 486160348 | Retrieved and included
+
+[TABLE 2]
+# | Study | Rayyan ID | Status
+1 | Desai K et al. (2018) — Longevity and Complication Rates of Ultrasound Guided vs Traditional PIVC in a Paediatric ED. JAVA 23(3):149-154. | 486161209 | Retrieved April 2026 via interlibrary loan; included (classified as catheter-length confounded; excluded from primary pooling, retained in narrative synthesis)
+2 | Nishizawa T et al. (2020) — Nurse-Performed Ultrasound-Guided Technique for Difficult Peripheral IV Access in Critically Ill Patients. JAVA 25(2):34-39. | 486161498 | Retrieved April 2026 via interlibrary loan; included (5th RCT; extravasation data contributed to narrative synthesis)

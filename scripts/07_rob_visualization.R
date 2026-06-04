@@ -23,40 +23,54 @@ dir.create(dirname(out_pdf), recursive = TRUE, showWarnings = FALSE)
 rob2 <- tibble::tribble(
   ~Study,            ~D1,            ~D2,             ~D3,            ~D4,             ~D5,             ~Overall,
   "Kleidon 2025",    "Low",          "Some concerns", "Low",          "Low",           "Low",           "Some concerns",
-  "Bridey 2018",     "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns",
   "Varghese 2025",   "Low",          "Low",           "Low",          "Some concerns", "Some concerns", "Some concerns",
   "Leroux 2023",     "Low",          "Some concerns", "High",         "Some concerns", "Low",           "High",
   "Nishizawa 2020",  "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns",
+  "Bridey 2018",     "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns",
   "Avelar 2015",     "Low",          "Some concerns", "Low",          "Some concerns", "Low",           "Some concerns"
 )
 
-# robvis expects column header "Study"/"D1"/.../"Overall" for tool="ROB2"
-rob2_traffic <- rob_traffic_light(
-  data    = rob2,
-  tool    = "ROB2",
-  psize   = 7,
-  colour  = "cochrane"
-)
-rob2_summary <- rob_summary(
-  data    = rob2,
-  tool    = "ROB2",
-  overall = TRUE,
-  weighted = FALSE,
-  colour  = "cochrane"
-)
+# Custom traffic-light (horizontal study labels; robvis rotates+truncates labels)
+rob2_traffic <- rob2 %>%
+  pivot_longer(c(D1, D2, D3, D4, D5, Overall), names_to = "Domain", values_to = "Judgment") %>%
+  mutate(
+    Study   = factor(Study, levels = rev(rob2$Study)),
+    Domain  = factor(Domain, levels = c("D1", "D2", "D3", "D4", "D5", "Overall")),
+    sym     = recode(Judgment, "Low" = "+", "Some concerns" = "−", "High" = "×")
+  ) %>%
+  ggplot(aes(Domain, Study)) +
+  geom_point(aes(fill = Judgment), shape = 21, size = 8.5, colour = "grey40", stroke = 0.4) +
+  geom_text(aes(label = sym), fontface = "bold", size = 4.2) +
+  geom_vline(xintercept = 5.5, linetype = "dashed", colour = "grey55") +
+  scale_fill_manual(values = c("Low" = "#4CAF50", "Some concerns" = "#FBC02D", "High" = "#D32F2F"),
+                    breaks = c("High", "Some concerns", "Low"), name = "Judgement") +
+  scale_x_discrete(position = "top", expand = expansion(add = 0.6)) +
+  scale_y_discrete(expand = expansion(add = 0.6)) +
+  labs(x = NULL, y = NULL,
+       subtitle = "D1 randomization · D2 deviations · D3 missing data · D4 outcome measurement · D5 selective reporting") +
+  theme_minimal(base_size = 11) +
+  theme(
+    panel.grid      = element_blank(),
+    axis.text.x.top = element_text(face = "bold"),
+    axis.text.y     = element_text(hjust = 1),
+    plot.subtitle   = element_text(size = 8, colour = "grey30"),
+    legend.position = "right"
+  )
+
+rob2_summary <- NULL  # (robvis rob_summary not composed in this figure)
 
 # ---- NOS for the 9 cohort studies (custom ggplot — robvis has no native NOS) ----
 nos <- tibble::tribble(
   ~Study,             ~Selection, ~Comparability, ~Outcome, ~Total, ~KeyConcern,
-  "Feinsmith 2021",   3, 1, 2, 6, "Selection bias (DIVA), missing IFR",
+  "Refosco 2025",     3, 1, 2, 6, "Catheter length confounding (64 mm vs 19–32 mm)",
   "Dachepally 2023",  3, 1, 2, 6, "Catheter length confounding",
-  "Shokoohi 2019",    4, 2, 3, 9, "Highest quality (nested in RCT)",
-  "Favot 2019",       2, 1, 2, 5, "Ecological comparison",
-  "Paladini 2018",    3, 1, 2, 6, "Catheter type confounding",
-  "Saltarelli 2015",  3, 1, 1, 5, "Conference abstract only",
+  "Feinsmith 2023",   3, 1, 2, 6, "Selection bias (DIVA), missing IFR",
   "Cottrell 2021",    3, 1, 2, 6, "Difficulty-class imbalance",
-  "Refosco 2024",     2, 1, 2, 5, "Catheter length confounding (64 mm vs 19–32 mm)",
-  "Desai 2018",       2, 1, 2, 5, "DIVA history + catheter length"
+  "Favot 2019",       2, 1, 2, 5, "Ecological comparison",
+  "Shokoohi 2019",    4, 2, 3, 9, "Highest quality (nested in RCT)",
+  "Desai 2018",       2, 1, 2, 5, "DIVA history + catheter length",
+  "Paladini 2018",    3, 1, 2, 6, "Catheter type confounding",
+  "Saltarelli 2015",  3, 1, 1, 5, "Conference abstract only"
 )
 
 # Star-fraction cell colour: green = max, amber = ≥half, red = <half
@@ -126,7 +140,7 @@ top <- rob2_traffic + ggtitle("A. Cochrane RoB 2 traffic-light plot (RCTs, n = 6
 combined <- (top / (nos_plot | overall_bar)) +
   plot_layout(heights = c(1.2, 1.0)) +
   plot_annotation(
-    title    = "Figure 7. Risk-of-bias and methodological-quality summary across all 15 included studies",
+    title    = "Figure 1. Risk-of-bias and methodological-quality summary across all 15 included studies",
     subtitle = "Cochrane Risk of Bias 2 (6 RCTs) and Newcastle-Ottawa Scale (9 cohort studies); see Table 2 for details",
     caption  = "Authoritative ratings: output/risk_of_bias.md (audited 2026-04-28). Cochrane RoB colour palette.",
     theme    = theme(plot.title = element_text(face = "bold", size = 13),

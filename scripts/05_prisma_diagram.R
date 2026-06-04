@@ -14,7 +14,7 @@ pdf("output/prisma_flowchart.pdf", width = 11, height = 14)
 
 par(mar = c(0.5, 0.5, 1.5, 0.5))
 plot(NULL, xlim = c(0, 100), ylim = c(0, 100), axes = FALSE, xlab = "", ylab = "",
-     main = "Figure 1. PRISMA 2020 Flow Diagram", cex.main = 1.2, font.main = 2)
+     main = "Figure 2. PRISMA 2020 Flow Diagram", cex.main = 1.2, font.main = 2)
 
 # ===== IDENTIFICATION =====
 text(5, 97, "IDENTIFICATION", adj = 0, font = 2, cex = 0.9, col = "#555555")

@@ -29,16 +29,16 @@ Email: c11g@hotmail.com
 Tai-An Lee: [insert ORCID]
 Yu-Ling Wang: [insert ORCID]
 Jen-Tao Wang: [insert ORCID]
-Chia-Ching Chen: [insert ORCID]
+Chia-Ching Chen: 0000-0002-0898-8696
 
 ## Word Count
 - Abstract: ~350 words
 - Main text: ~6,200 words (excluding references, tables, and figures)
 
 ## Number of Tables and Figures
-- Tables: 3 (Table 1: Study characteristics [14 studies]; Table 2: Risk of bias; Table 3: GRADE Summary of Findings)
-- Figures: 6 (Figure 1: PRISMA flow diagram; Figures 2-6: Forest plots)
-- Supplementary Materials: 3 (S1: Search strategies; S2: Excluded studies; S3: PRISMA checklist)
+- Tables: 3 (Table 1: Study characteristics [15 studies]; Table 2: Risk of bias [Cochrane RoB 2 + Newcastle-Ottawa Scale]; Table 3: GRADE Summary of Findings)
+- Figures: 6 (Figure 1: Risk-of-bias summary; Figure 2: PRISMA 2020 flow diagram; Figure 3: catheter-failure forest plot; Figure 4: dwell-time forest plot; Figure 5: infiltration forest plot; Figure 6: catheter failure by age subgroup)
+- Supplementary Materials: 4 (S1: PRISMA 2020 checklist; S2: Search strategies; S3: Studies excluded at full text; S4: Leave-one-out sensitivity analysis), plus 2 supplementary figures (Supplementary Figure 1: extravasation forest plot; Supplementary Figure 2: time-to-event–adjacent estimates)
 
 ## Registration
 PROSPERO: CRD420261354170
@@ -50,7 +50,7 @@ None.
 The authors declare no conflicts of interest.
 
 ## Authors' Contributions
-T.A.L. and Y.L.W. contributed equally to this work and share first authorship. C.C.C. conceived and designed the study, performed the literature search, data extraction, statistical analysis, and drafted the manuscript. T.A.L. independently performed title/abstract screening, data extraction, and risk of bias assessment, and critically reviewed the manuscript. Y.L.W. independently performed title/abstract screening and data extraction, and critically reviewed the manuscript. J.T.W. assisted with data verification and critically reviewed the manuscript. All authors read and approved the final version.
+T.A.L. and Y.L.W. contributed equally to this work and share first authorship. C.C.C. conceived and designed the study, developed and ran the search strategy, performed data extraction and the statistical analyses, and drafted the manuscript; C.C.C. also performed title/abstract screening and adjudicated the full-text eligibility decisions by consensus. Y.L.W. performed title/abstract screening and full-text eligibility screening, contributed to data extraction, and critically revised the manuscript. T.A.L. performed full-text eligibility screening and risk-of-bias assessment, contributed to data extraction, and critically revised the manuscript. J.T.W. assisted with data verification and critically revised the manuscript. All authors read and approved the final version.
 
 ## Availability of Data and Materials
 The datasets generated and analysed during the current study, including search results, extracted data, and R analysis code, are available from the corresponding author upon reasonable request.
