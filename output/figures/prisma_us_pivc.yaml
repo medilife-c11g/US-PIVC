@@ -1,0 +1,26 @@
+$schema: https://flowdoc.dev/schema/v1
+preset: prisma-2020-db-only
+metadata:
+  title: "Ultrasound-guided peripheral IV cannulation: PRISMA 2020 flow"
+  authors: ["Chen C-C"]
+  date: "2026-06-08"
+  language: en
+  # Databases (n=1632): PubMed 530, Embase 984, Cochrane CENTRAL 68, CINAHL 50
+data:
+  db_records: 1632
+  registry_records: 0
+  duplicates_removed: 273
+  automation_excluded: 0
+  other_prescreen_removed: 0
+  records_screened: 1359
+  records_excluded: 1340
+  reports_sought: 19
+  reports_not_retrieved: 0
+  reports_assessed: 19
+  exclusion_reasons:
+    - { reason: "Single-arm, no comparator", n: 1 }
+    - { reason: "Portuguese-language full text", n: 2 }
+    - { reason: "Unpublished", n: 1 }
+    - { reason: "Duplicate/protocol of same trial", n: 1 }
+  studies_included: 14
+  reports_of_included_studies: 14

@@ -1,5 +1,20 @@
 # Progress Tracker — USG-PIVC Post-Insertion Outcomes Meta-Analysis
 
+## 2026-06-08 — Po-Ming final version checked + corrected resubmission package built
+
+Compared `Submission #19152/` (Po-Ming's final-corrected version) against `Revision 0604/` and ran the pre-submission final check.
+
+- **No number regression**: 15 studies (6 RCT + 9 cohort), 78,591 participants, catheter-failure RR 1.23 (1.00–1.51, p=0.056), infiltration k=3 RR 1.30 (0.82–2.05), cohort subgroup RR 1.29 (1.02–1.63) — identical in both versions.
+- **Critical issue caught & fixed**: Po-Ming half-swapped the table numbering (renamed GRADE→`Table1` / study-char→`Table3` files + changed 2 GRADE in-text callouts to 'Table 1') but left the 5 study-char callouts as 'Table 1' → manuscript referred to TWO different tables as 'Table 1', and two files were captioned 'Table 3'.
+- **Fix (reverted to the consistent scheme T1=study characteristics, T2=RoB, T3=GRADE)**: manuscript 2 GRADE callouts Table 1→Table 3; GRADE file renamed →`Table3_GRADE_SoF` (caption already Table 3); study-char file renamed →`Table1_study_characteristics` + caption Table 3→Table 1; RoB unchanged.
+- **CLEAN manuscript produced** from the corrected MARKEDUP (168 red runs→black; text byte-identical to markedup, 224 paras).
+- **Full-package consistency scan PASSED**: numbers; table callouts (T1×5/T2×3/T3×2); Fig 1 RoB → Fig 6 subgroup + Supp Fig 1/2 legends ↔ figure files; Supp Material S1–S4; file completeness.
+- **Response_to_Reviewers.docx already correct** (Fig1=RoB…Fig6=subgroup; extravasation/time-to-event → Supp S1/S2). Only `revision_2026-06-03/Response_to_Reviewers.md` is a stale working note.
+- **Deliverable: `~/Research/US-PIVC/Submission #19152_CORRECTED/`** (20 files; Po-Ming originals untouched). Title_Page.docx + Response_to_Reviewers.docx copied in from Revision 0604.
+- **⏭ AUTHOR before submit**: (1) confirm Title_Page authors/affiliations are current (Po-Ming changed affiliation superscript spacing to '1Department'); (2) confirm 2nd-reviewer initials standardised to Y.L.W. in Title Page/Author Contributions; (3) click-submit the CORRECTED package to The Ultrasound Journal #19152.
+
+---
+
 ## 2026-04-28 — Codex audit + 8 fixes applied (M3 / H1-H5 / M1 / M2)
 
 Ran adversarial Codex methods audit (`task-moi59ese-9x65a2`, 3m 3s) on the full manuscript + R script + supplementary materials. 10 ranked risks returned (full output: `notes/Codex_audit_2026-04-28.md`). Top 8 fixed today:
