@@ -1,5 +1,17 @@
 # Progress Tracker — USG-PIVC Post-Insertion Outcomes Meta-Analysis
 
+## 2026-06-09 — Title Page resynced to manuscript author list (5 authors)
+
+Cross-checked `Submission #19152_CORRECTED/Title_Page.docx` against the CLEAN + MARKEDUP manuscripts and caught a **hard blocker**: the Title Page (copied from `Revision 0604/`) was stale and disagreed with Po-Ming's final manuscript on the author list.
+
+- **Manuscript (authoritative):** 5 authors — Tai-An Lee¹·†, Yu-Ling Wang²·†, Jen-Tao Lin³, Po-Ming Chen⁴·⁵, Chia-Ching Chen¹·⁶·* ; 6 affiliations (adds Research Assistant Center/Show Chwan, Nursing/CTUST, IRCAD); C.C.C. at **Chang Bing** Show Chwan, corresponding addr No. 6 Lugong Rd, Lukang.
+- **Title Page (was stale):** 4 authors (no Po-Ming Chen), 3rd author mis-surnamed "Jen-Tao **Wang**", C.C.C. at "**Changhua** Show Chwan", corresponding addr No. 542 Zhongshan Rd, only 4 affiliations.
+- **PI decisions (2026-06-09):** (1) 5-author manuscript list is authoritative; (2) 3rd author = **Jen-Tao Lin**; (3) corresponding = **Chang Bing** + Lugong Rd.
+- **Fix applied** (python-docx surgical edit, styles preserved): Title Page Authors line, Affiliations (now 6), Corresponding Author, ORCID (added Po-Ming Chen row; Jen-Tao Lin), and Authors' Contributions (J.T.W.→J.T.L.; added P.M.C.).
+- **P.M.C. contribution confirmed by PI (2026-06-09)**: "P.M.C. assisted with data verification and manuscript revision." — inline `[AUTHOR TO CONFIRM]` marker removed.
+- Package sweep: Response_to_Reviewers + Supplementary S1–S4 are author-neutral (no stale names). Title Page was the only out-of-sync file.
+- **⏭ AUTHOR before submit:** (a) fill 4 missing ORCIDs (Lee/Wang/Lin/Po-Ming); (b) click-submit CORRECTED package to The Ultrasound Journal #19152.
+
 ## 2026-06-08 — Po-Ming final version checked + corrected resubmission package built
 
 Compared `Submission #19152/` (Po-Ming's final-corrected version) against `Revision 0604/` and ran the pre-submission final check.

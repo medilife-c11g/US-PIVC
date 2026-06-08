@@ -19,8 +19,8 @@ Resubmission is essentially ready. Po-Ming Chen produced a final-corrected versi
 Po-Ming had half-swapped the table numbering (broke it). I reverted the 2 GRADE callouts (Table 1→Table 3), renamed+relabelled the tables to the consistent scheme, produced the CLEAN manuscript, and passed a full-package consistency scan.
 
 ## ⏭ Remaining (author-only, before click-submit)
-1. Confirm `Title_Page.docx` authors/affiliations are current (Po-Ming changed affiliation superscript to "1Department"; Title Page came from Revision 0604).
-2. Confirm 2nd-reviewer initials standardised to **Y.L.W.** (Yu-Ling Wang) in Title Page + Author Contributions.
+1. ✅ DONE 2026-06-09 — Title Page resynced to the 5-author manuscript list. Caught that it was stale (4 authors, missing Po-Ming Chen, "Jen-Tao Wang"→Lin, "Changhua"→Chang Bing). PI confirmed manuscript is authoritative; fixed Authors / Affiliations(6) / Corresponding / ORCID / Contributions. 2nd-reviewer initials are **Y.L.W.** throughout. P.M.C. contribution confirmed by PI (2026-06-09): "P.M.C. assisted with data verification and manuscript revision." (marker removed).
+2. **AUTHOR before submit**: fill 4 missing ORCIDs (Lee / Yu-Ling Wang / Jen-Tao Lin / Po-Ming Chen).
 3. Upload the **CORRECTED** package to The Ultrasound Journal #19152 (do NOT use the broken `Submission #19152/` table set).
 
 ## Cross-session note (tools installed this session — already in MEMORY.md)
