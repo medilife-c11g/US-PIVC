@@ -1,0 +1,51 @@
+<!doctype html><html><head><meta charset="utf-8"><style>
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1920px;height:1080px;overflow:hidden}
+body{font-family:"PingFang TC","Noto Sans TC",-apple-system,sans-serif;background:#FFFFFF;color:#16324F;
+     display:flex;flex-direction:column}
+.top{height:14px;background:linear-gradient(90deg,#0E7C86,#16324F)}
+.wrap{flex:1;padding:56px 88px 40px;display:flex;flex-direction:column}
+h1.big{font-size:88px;font-weight:800;line-height:1.2;letter-spacing:.01em}
+h2.slide-title{font-size:60px;font-weight:800;color:#16324F;margin-bottom:12px}
+.kicker{font-size:26px;font-weight:700;color:#0E7C86;text-transform:uppercase;letter-spacing:.14em;margin-bottom:14px}
+.sub{font-size:34px;color:#5B6B7C;margin-top:22px;line-height:1.5}
+.rule{height:5px;width:150px;background:#0E7C86;border-radius:3px;margin:26px 0 34px}
+ul.b{list-style:none;font-size:38px;line-height:1.55}
+ul.b li{padding-left:52px;position:relative;margin-bottom:26px}
+ul.b li::before{content:"";position:absolute;left:8px;top:22px;width:16px;height:16px;border-radius:4px;background:#0E7C86}
+ul.b li.warn::before{background:#C2542D}
+ul.b b{color:#0E7C86}.warn b{color:#C2542D}
+.cols{display:flex;gap:56px;flex:1;min-height:0}
+.col-t{flex:0 0 620px;display:flex;flex-direction:column}
+.col-f{flex:1;display:flex;align-items:center;justify-content:center;background:#F6F8FA;border:1px solid #E3E9EF;border-radius:18px;padding:26px}
+.col-f img{max-width:100%;max-height:100%;object-fit:contain}
+.statrow{display:flex;gap:44px;margin-top:8px}
+.stat{flex:1;background:#F2F7F8;border:1px solid #DBE7EA;border-left:10px solid #0E7C86;border-radius:16px;padding:34px 38px}
+.stat.warn{border-left-color:#C2542D;background:#FBF3EF;border-color:#EFDCD2}
+.stat .n{font-size:76px;font-weight:800;color:#16324F;line-height:1.05}
+.stat .l{font-size:27px;color:#5B6B7C;margin-top:12px;line-height:1.4}
+.foot{height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 88px;
+      font-size:21px;color:#8896A5;border-top:1px solid #EDF1F5}
+.badge{display:inline-block;background:#0E7C86;color:#fff;font-size:26px;font-weight:700;
+       border-radius:999px;padding:8px 26px;margin-right:14px}
+.note{margin-top:auto;background:#FFF8E8;border:1px solid #F0E3BB;border-radius:14px;padding:20px 28px;font-size:28px;color:#7A5B12;line-height:1.45}
+table.t{border-collapse:collapse;font-size:30px;width:100%}
+table.t th{background:#16324F;color:#fff;padding:16px 20px;text-align:left;font-weight:700}
+table.t td{padding:15px 20px;border-bottom:1px solid #E3E9EF;line-height:1.4}
+table.t tr td:first-child{font-weight:700}
+.center{display:flex;flex-direction:column;justify-content:center;flex:1}
+</style></head>
+<body><div class="top"></div><div class="wrap">
+<div class="kicker">Sensitivity Dissection</div>
+<h2 class="slide-title">訊號從哪來?拆開看就懂</h2>
+<div class="rule"></div>
+<div class="statrow" style="margin-bottom:30px">
+ <div class="stat"><div class="n" style="font-size:56px">Cohort RR 1.29</div><div class="l">(1.02–1.63) p=0.036 — <b>訊號主要來自世代研究</b></div></div>
+ <div class="stat"><div class="n" style="font-size:56px">RCT RR 1.03</div><div class="l">(0.66–1.61) p=0.91 — 隨機試驗基本上是平的</div></div>
+</div>
+<ul class="b" style="font-size:34px">
+ <li><b>Leave-one-out</b>:移除 <b>Saltarelli</b>(最大權重 49.8%,僅會議摘要)→ RR 1.18(0.88–1.58)<b>轉不顯著</b></li>
+ <li>移除 <b>Kleidon</b>(唯一兒科)→ RR 1.28(1.02–1.60)<b>轉顯著</b></li>
+ <li class="warn">結論:borderline 訊號<b>依賴單一大型研究</b>、且由觀察性資料驅動 — hypothesis-generating,不是定論</li>
+</ul></div>
+<div class="foot"><span>US-PIVC Post-insertion Outcomes — The Ultrasound Journal 2026 · 陳家慶</span><span>11 / 21</span></div></body></html>
