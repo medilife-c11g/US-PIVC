@@ -1,7 +1,7 @@
 #!/bin/zsh
 set -e
 mkdir -p seg
-rm -f seg/*.mp4 concat.txt
+setopt null_glob; rm -f seg/*.mp4 concat.txt
 for i in $(seq -w 1 21); do
   ffmpeg -y -v error -loop 1 -framerate 12 -i png/slide$i.png -i audio/n$i.aiff \
     -af "apad=pad_dur=0.7" -c:v libx264 -preset fast -tune stillimage -crf 22 -pix_fmt yuv420p \
